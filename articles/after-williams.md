@@ -14,7 +14,7 @@ Students interested in studying statistics in graduate school should take STAT 2
 
 **Engineering:** Williams has exchange and joint programs with engineering schools. Interested students should consult the Williams pre-engineering advisor.
 
-#### Where recent majors have gone
+#### Postgraduate plans of some past majors
 
 - **Isabel Albores:** Pursuing a PhD in Civil and Environmental Engineering (focus on atmospheric chemistry)
 - **Therese Belnap:** Investment Banking Analyst at Citi Bank in New York City
