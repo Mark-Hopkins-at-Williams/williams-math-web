@@ -1,6 +1,6 @@
 Students who come to Williams with advanced placement will be moved up in the Mathematics major, and should consult with faculty to be placed in the best class reflecting their experience and background. A student who places out of a course substitutes another course of equal or higher level and numbered 200 or above in Mathematics or Statistics to complete the nine course major. The department reserves the right to refuse registration in any course for which the student is overqualified.
 
-For example, a student starting in MATH 130 might take MATH 130 and 140 the first year, MATH 150 and MATH 200 the second year, MATH 250 and MATH 350 the third year, MATH 355 and a senior seminar the fourth year, plus the two required electives some time.
+For example, a student starting in MATH 130 might take MATH 130 and 140 the first year, MATH 150 and MATH 200 (or 220) the second year, MATH 250 and MATH 350 the third year, MATH 355 and a senior seminar the fourth year, plus the two required electives some time.
 
 #### Calculus placement
 

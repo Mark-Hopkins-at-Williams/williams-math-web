@@ -11,7 +11,7 @@ Except in unusual circumstances, students planning to major in mathematics shoul
 
 One of:
 
-- MATH 200 Discrete Mathematics
+- MATH 200 Discrete Mathematics or MATH 220 Foundations of Mathematical Thinking & Discrete Math (students may not take both)
 - MATH 210 Mathematical Methods for Scientists (same as PHYS 210)
 - STAT 201 Statistics and Data Analysis
 - MATH 309 Differential Equations

@@ -4,4 +4,4 @@ During SMALL, students work in groups directed by individual faculty members. Ma
 
 The SMALL program has a storied history. Some notable achievements include progress on the [double bubble conjecture](https://en.wikipedia.org/wiki/Double_bubble_theorem#History) which led to its ultimate resolution, as well as the classification of all the (non-edge-to-edge) regular polygonal [tilings of the sphere](https://dl.acm.org/doi/abs/10.1007/s00454-024-00689-z).
 
-The sections below describe the 2026 groups, how to apply, and past groups and their publications. For any other questions, please contact the Program Director at smalldirector@williams.edu. See also this [overview of life during the REU](https://web.williams.edu/Mathematics/SMALL/SMALL_PURM.pdf).
+The sections below describe the current groups, how to apply, and past groups and their publications. For any other questions, please contact the Program Director at smalldirector@williams.edu. See also this [overview of life during the REU](https://web.williams.edu/Mathematics/SMALL/SMALL_PURM.pdf).

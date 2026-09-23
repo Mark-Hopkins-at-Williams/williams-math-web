@@ -28,7 +28,7 @@ Students interested in studying statistics in graduate school should take STAT 2
 - **Jackson Ehrenworth:** Cybersecurity Engineer for TikTok
 - **Hazel Ethier:** Working as a Research Analyst doing Economic Consulting at the Brattle Group
 - **Nathan Hu:** Quantitative Developer at Arrowstreet Capital in Boston, MA
-- **Samantha Kilcoyne:** Work in finance
+- **Samantha Kilcoyne:** Working in finance
 - **Elias Lindgreen:** Pursuing a Ph.D. in Computer Science at the University of Colorado, Boulder
 - **Petros Markopoulos:** Working at Asana at their San Francisco office as a Software Engineer
 - **Jack Murphy:** Entering the seminary this fall to begin training for the Catholic priesthood
@@ -37,7 +37,7 @@ Students interested in studying statistics in graduate school should take STAT 2
 - **Matthew Phang:** Working in Boston, MA for Cambridge Associates
 - **Caroline Ro:** Working as an Analyst at Cornerstone Research in Boston, MA
 - **Elise Root:** Research Associate in the Reilly Lab at Yale
-- **Alexander Shashkov:** Entering a math P.D. program
+- **Alexander Shashkov:** Entering a math Ph.D. program
 - **Ben Shapiro:** Pursuing a Ph.D. in Math at Dartmouth College
 - **Sarah Shi:** Working in consulting at Bain in Boston, MA
 - **Chenyang Sun:** Herchel Smith Fellow, the Part III (Master’s) in Mathematics at the University of Cambridge

@@ -85,7 +85,7 @@ Tropical geometry combines the worlds of combinatorics, discrete geometry, and a
 
 #### SMALL 2015
 
-**There are seven potential areas this summer (we are still finalizing so please check back later): Arithmetic Combinatorics (Leo Goldmakher), Combinatorial Geometry (Satyan Devadoss), Commutative Algebra (Susan Loepp),****Geometry (Frank Morgan), Hyperbolic Knots Colin Adams), Mathematical Physics (Mihai Stoiciu) and Number Theory & Harmonic Analysis (Steven Miller and Eyvi Palsson). For more information on each of these, scroll down.**
+Areas planned for 2015: Arithmetic Combinatorics (Leo Goldmakher), Combinatorial Geometry (Satyan Devadoss), Commutative Algebra (Susan Loepp), Geometry (Frank Morgan), Hyperbolic Knots (Colin Adams), Mathematical Physics (Mihai Stoiciu), and Number Theory & Harmonic Analysis (Steven Miller and Eyvi Palsson).
 
 ##### Arithmetic Combinatorics
 
@@ -191,9 +191,7 @@ The choice of problems will be chosen by student interest from these  and other 
 
 #### SMALL 2014
 
-**SMALL 2014 Projects:**
-
-**There are four projects this summer: Ergodic Theory and Dynamical Systems (Cesar Silva), Geometry (Frank Morgan), Mathematical Physics (Mihai Stoiciu), and Number Theory and Probability (Steven Miller). For more information on each of these, scroll down.**
+Four projects ran in 2014: Ergodic Theory and Dynamical Systems (Cesar Silva), Geometry (Frank Morgan), Mathematical Physics (Mihai Stoiciu), and Number Theory and Probability (Steven Miller).
 
 **Ergodic Theory and Dynamical Systems**
 
@@ -378,8 +376,6 @@ References and more details: go to <http://www.williams.edu/Mathematics/sjmiller
 
 #### SMALL 2012
 
-**SMALL 2012 Projects:**
-
 **ALGEBRAIC AND GEOMETRIC COMBINATORICS**
 
 Advisor:  Elizabeth Beazley
@@ -491,8 +487,6 @@ We will consider problems in this field from the perspective of geometry and top
 [1] “[Geometric Folding Algorithms](https://www.amazon.com/Geometric-Folding-Algorithms-Linkages-Polyhedra/dp/0521857570/ref=sr_1_1?ie=UTF8&qid=1322233169&sr=8-1)” by E. Demaine and J. O’Rourke[2] “[Discrete and Computational Geometry](https://www.amazon.com/Discrete-Computational-Geometry-Satyan-Devadoss/dp/0691145539/ref=sr_1_1?s=books&ie=UTF8&qid=1322233197&sr=1-1)” by S. Devadoss and J. O’Rourke[3] “[Phylogenetics](https://www.amazon.com/Phylogenetics-Oxford-Lecture-Mathematics-Applications/dp/0198509421/ref=sr_1_1?s=books&ie=UTF8&qid=1322233229&sr=1-1)” by C. Semple and M. Steel[4] “[Treemaker Origami Software](http://www.langorigami.com/science/computational/treemaker/treemaker.php)” by R. Lang
 
 #### SMALL 2011
-
-**SMALL 2011 Projects**
 
 **COMMUTATIVE ALGEBRA**
 
@@ -627,8 +621,6 @@ Having bubble fun in Williamstown.
 Check out the [SMALL 2011 photo album!](http://www.flickr.com/photos/small2011)
 
 #### SMALL 2010
-
-**SMALL 2010 Projects:**
 
 **ALGEBRAIC NUMBER THEORY**
 

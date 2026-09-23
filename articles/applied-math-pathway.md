@@ -17,7 +17,7 @@ Below is an (unofficial) recommended applied mathematics pathway through the mat
 - **Applied/discrete requirement:** STAT 201 (Statistics and Data Analysis)
 - **Core courses:** MATH 250 (Linear Algebra), MATH 351 (Applied Real Analysis), MATH 355 (Abstract Algebra)
 - **Two electives numbered 300 and above:** MATH 309 (Differential Equations), plus one or more courses such as MATH 307 (Computational Linear Algebra), MATH 412 (Mathematical Biology), MATH 341 (Probability), Complex Analysis, or any 400-level course listed below
-- **Senior major course numbered 400 and above:** one or more courses such as MATH 433 (Mathematical Modeling), MATH 434 (Applied Dynamics and Optimal Control), or MATH 453 (Partial Differential Equations)
+- **Senior seminar (a course numbered 400–479):** one or more courses such as MATH 433 (Mathematical Modeling), MATH 434 (Applied Dynamics and Optimal Control), or MATH 453 (Partial Differential Equations)
 - **Mathematics Colloquium**
 
 The available courses may change from time to time; consult with an applied math advisor as necessary.

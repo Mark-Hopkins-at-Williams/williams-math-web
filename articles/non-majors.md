@@ -3,7 +3,7 @@ The chart above is designed to help you find the appropriate beginning math cour
 Courses that are good places to start include:
 
 - **MATH 130 Calculus I**, **MATH 140 Calculus II**, and **MATH 150/151 Multivariable Calculus** (MATH 130, 140, and 150 are offered every semester; MATH 151 in the fall). Calculus is used throughout mathematics, science, economics, psychology, and the social sciences.
-- **MATH 200 Discrete Mathematics** (fall), which examines the structure and properties of finite sets, including mathematical logic, elementary number theory, and more.
+- **MATH 200 Discrete Mathematics** (fall) or **MATH 220 Foundations of Mathematical Thinking & Discrete Math** (spring), which cover logic, proof, number theory, counting, and graph theory; 220 puts more emphasis on mathematical thinking and proof writing, with weekly small-group meetings. Students may not take both.
 - **MATH 111 Introduction to Cryptography** (spring), which explores how to encode information so that only certain recipients can read it.
 - **MATH 102 Foundations in Quantitative Skills**, a small-group tutorial at the college algebra/precalculus level that prepares students for the science curriculum and QFR requirements (access is by placement by a quantitative skills counselor).
 

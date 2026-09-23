@@ -1,6 +1,6 @@
 #### Application information for SMALL:
 
-SMALL usually runs mid-June to mid-August. The 2026 program ran from Monday, June 15 to Friday, August 14, 2026. At the end of this page is more information about housing, meals, travel, stipends, etc.
+SMALL usually runs for nine weeks, from mid-June to mid-August. At the end of this page is more information about housing, meals, travel, stipends, etc.
 
 Applications are due through [MathPrograms](http://www.mathprograms.org/db). See the listing for SMALL\_REU under Williams College. The due date is usually early February, but MathPrograms has the specifics.
 
@@ -14,7 +14,7 @@ The SMALL program is open to all students who are undergraduates during the summ
 
 **See the frequently asked questions below.** If this doesn’t answer your questions, or if you need more information, please contact the Program Director at [smalldirector@williams.edu](mailto:smalldirector@williams.edu).
 
-**Additional information on stipends and lodging****:**  
+**Additional information on stipends and lodging:**  
 Participating students receive a stipend of about $4000. Several board plans are available at reasonable rates, with housing included for free. There are funds to help with travel to/from SMALL, as well as to support students to go to conferences to present their work. Students are required to live on campus to participate in the SMALL program.  Having students live together on campus allows for the mathematical interaction to expand beyond the boundaries of the workday.
 
 #### Frequently asked questions
