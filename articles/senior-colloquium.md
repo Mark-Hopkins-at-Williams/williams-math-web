@@ -1,0 +1,7 @@
+Every senior math major is required to prepare and deliver an acceptable colloquium talk or thesis presentation. Your talk should be around thirty minutes long. You can speak on any math/stat topic as long as it is interesting and new to you. Colloquium talks require meticulous preparation in close contact with a faculty advisor, over a period of at least a month.
+
+During the 2026-2027 academic year, the Math Colloquium will be in person and the attendance requirement will be **20+1** (20 colloquia attended and one given). The time for a colloquium presentation will be 30 minutes +/- 3 minutes. The math colloquia will be on Mondays and Wednesdays from 1:00-1:45pm in Wachenheim 113. See the [colloquium schedule](/colloquium/) for upcoming talks, including additional colloquia, honors thesis defenses, and guest speakers.
+
+If you do not attend at least 20 colloquia (at most 5 of which can be from your junior year, and 5 of which can be from statistics colloquia), you will be dropped from the major. The colloquium you deliver counts as one of your 21. Students engaged in study away may petition the department in advance to count up to 5 suitable colloquium attendances from their study away program. There is also a prize for best attendance at colloquia!
+
+Your colloquium presentation will be graded by faculty, and you are required to earn a passing grade. Attendance is recorded on Glow (course 27F-MATH-499-01, Senior Colloquium): bring an electronic device with access to Glow (phone, tablet, or laptop) to each colloquium to record your attendance.

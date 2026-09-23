@@ -1,0 +1,15 @@
+{
+    "spotlight": {
+        "photo": "/images/misc/alum-tea.jpg",
+        "caption": "Math and Stats alums gather in the Wachenheim library for the reunion tea."
+    },
+    "content": [
+        {
+            "component": "FromTheDepartment"
+        },
+        {
+            "title": "welcome to mathematics at williams!",
+            "article": "articles/welcome.md"
+        }
+    ]
+}

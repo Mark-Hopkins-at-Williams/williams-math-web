@@ -1,0 +1,488 @@
+.admin-app {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1a1a1a;
+  min-height: 100vh;
+  background: #f7f7f8;
+  /* #root sets text-align: center for the public site; reset it here so
+     it doesn't cascade into the admin panel (e.g. the markdown preview). */
+  text-align: left;
+}
+
+.admin-title-bar {
+  background: #3a3a63;
+  color: #fff;
+  padding: 4px 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
+.admin-publish-ok {
+  margin-top: 8px;
+  color: #1a7a3c;
+  font-size: 13px;
+}
+
+.admin-publish-log {
+  margin-top: 8px;
+  background: rgba(0, 0, 0, 0.25);
+  color: #ffb3b3;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+/* Styled after the public site's .topmenu-bar/.topmenu (see src/App.css):
+   bordered pill links in a wrapping row. One sticky bar holds both section
+   navigation and the Save/Publish/Log out actions. */
+.admin-topbar {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  padding: 10px 20px;
+  background: #f7f7f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-topbar-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.admin-topbar-links {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 6px;
+}
+
+.admin-topbar-actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.admin-topbar-link {
+  font-size: 14px;
+  color: #1a1a1a;
+  text-decoration: none;
+  background: #e8e8ea;
+  border: 2px solid #1a1a1a;
+  border-radius: 8px;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-topbar-link:hover {
+  background: #dedcf5;
+}
+
+.admin-topbar-link.active {
+  background: #3a3a63;
+  border-color: #3a3a63;
+  color: #fff;
+  font-weight: 600;
+}
+
+.admin-content {
+  padding: 24px;
+  max-width: 900px;
+}
+
+.admin-tabs {
+  display: flex;
+  gap: 12px;
+  margin: 12px 0 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-tabs a {
+  padding: 8px 4px;
+  text-decoration: none;
+  color: #555;
+  border-bottom: 2px solid transparent;
+}
+
+.admin-tabs a.active {
+  color: #1a1a1a;
+  border-bottom-color: #3a3a63;
+  font-weight: 600;
+}
+
+.admin-collection-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+/* Covers every button in the admin app, not just specific contexts --
+   index.css's global `button` rule sets a near-black background, which
+   otherwise collides with .admin-app's near-black text on any button that
+   isn't explicitly restyled here. */
+.admin-button,
+.admin-app button {
+  background: #3a3a63;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.admin-danger {
+  background: #a33 !important;
+}
+
+.admin-button-success {
+  background: #1a7a3c !important;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid #e2e2e2;
+  font-size: 14px;
+}
+
+.admin-record-form {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 18px;
+  max-width: 960px;
+}
+
+.admin-field {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 6px;
+}
+
+.admin-field-label {
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: lowercase;
+}
+
+.admin-field input[type="text"],
+.admin-field input[type="date"],
+.admin-field textarea,
+.admin-field select {
+  font-family: inherit;
+  font-size: 14px;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.admin-field-hint {
+  font-size: 12px;
+  color: #666;
+}
+
+.admin-field-error,
+.admin-error {
+  font-size: 12px;
+  color: #a33;
+}
+
+.admin-form-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.admin-app .admin-image-box {
+  width: 120px;
+  height: 120px;
+  padding: 0;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.admin-app .admin-image-box:hover {
+  border-color: #3a3a63;
+}
+
+.admin-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.admin-image-box-placeholder {
+  color: #666;
+  font-size: 13px;
+  text-align: center;
+  padding: 8px;
+}
+
+.admin-image-manager {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  max-width: 420px;
+}
+
+.admin-image-manager-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-family: monospace;
+  color: #666;
+}
+
+.admin-image-preview img {
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.admin-image-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.admin-image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.admin-image-thumb {
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.admin-image-thumb.selected {
+  border-color: #3a3a63;
+}
+
+.admin-image-thumb img,
+.admin-image-grid-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+
+.admin-image-grid-item {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4px;
+  align-items: center;
+}
+
+.admin-checkbox-list {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4px;
+  max-height: 220px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.admin-checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.admin-string-list,
+.admin-repeatable-group {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+}
+
+.admin-string-list-row {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+}
+
+.admin-string-list-row input,
+.admin-string-list-row textarea {
+  flex: 1;
+}
+
+.admin-repeatable-group-item {
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+}
+
+.admin-subfield {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 4px;
+}
+
+.admin-subfield label {
+  font-size: 12px;
+  color: #555;
+}
+
+.admin-thumb {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.admin-repeatable-group-controls {
+  display: flex;
+  gap: 6px;
+}
+
+.admin-article-editor {
+  display: flex;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.admin-article-editor > * {
+  flex: 1;
+  min-width: 0;
+  height: 360px;
+  overflow-y: auto;
+}
+
+.admin-article-textarea,
+.admin-content-block textarea {
+  font-family: monospace;
+  font-size: 13px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.admin-article-preview {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 12px;
+  background: #fff;
+}
+
+.admin-article-preview img {
+  max-width: 100%;
+  height: auto;
+}
+
+.admin-article-preview-empty {
+  color: #999;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.admin-content-block-list {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 14px;
+}
+
+.admin-content-block-wrapper {
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+}
+
+.admin-content-block {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 6px;
+}
+
+.admin-content-block input[type="text"] {
+  font-size: 14px;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.admin-content-block-component {
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.admin-content-block-controls,
+.admin-content-block-add {
+  display: flex;
+  gap: 8px;
+}
+
+.admin-major-path-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.admin-major-path-slot {
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.admin-major-path-slot-header {
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 6px;
+}

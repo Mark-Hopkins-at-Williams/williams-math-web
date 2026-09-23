@@ -1,0 +1,7 @@
+We announce, with deep sadness, the passing of our former colleague and friend, Professor Florian Luca.
+
+Professor Luca was a Visiting Professor in the Department of Mathematics and Statistics during the Academic Year 2006-2007. He taught courses in Calculus and Number Theory and was a highly esteemed member of the mathematics community at Williams College. Professor Luca was a prolific researcher and was always very eager to share his knowledge with Williams faculty and students. He published research papers with several Williams College faculty.
+
+At the time of his passing, Professor Luca was a distinguished Mathematics professor at Stellenbosch University in South Africa. He always spoke very fondly of the year he spent at Williams and remained in touch with several Williams faculty. We will remember Professor Florian Luca with deep gratitude for all his contributions to the Williams community.
+
+*Addendum from Professor Steven Miller:* I had the honor of intersecting his orbit multiple times; we were both board members of the Fibonacci Association and editors at the Quarterly. At our most recent conference in Istanbul, not surprisingly, he was asking great questions, and started a project with myself and four of my SMALL students who were there. The Fibonacci Association and Quarterly will be posting some of his papers with comments in the near future; there'll also be a special issue in his memory, and if you're interested in contributing, email sjm1@williams.edu.

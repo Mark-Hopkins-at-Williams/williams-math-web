@@ -1,0 +1,1030 @@
+/* ============================================================
+   DESIGN TOKENS — edit these to restyle the whole site
+   ============================================================ */
+:root {
+  /* Williams brand colors */
+  --color-purple: #500082;
+  --color-gold:   #FFBE0A;
+  --color-orange: #FF7800;
+
+  /* Page / section accent colors (top menu + sidebar tiles) */
+  --color-home:          #FFBE0A;
+  --color-about-us:      rgb(230, 53, 53);
+  --color-plan-major:    #500082;
+  --color-courses:       #FF7800;
+  --color-colloquium:    rgb(202, 26, 52);
+  --color-student-life:  rgb(40, 122, 95);
+  --color-research:      #2C5FA8;
+  --color-non-majors:    #B1008E;
+  --color-news:          #280050;
+  --color-news-light:    #c8a8e8;
+
+  /* Font roles */
+  --font-display: Eph Slab, Rockwell;                            /* headers, menu, section labels */
+  --font-body:    Manrope, sans-serif;                           /* body text, long-form content  */
+  --font-octic:   Eph Octic, 'Courier New', Courier, monospace;  /* terminal-style + colloq tiles */
+  --font-gothic:  Eph Gothic;                                    /* course listings, news titles  */
+  --font-accent:  Bebas Neue;                                    /* speaker / display accent      */
+
+  /* Layout */
+  --content-max-width: 1050px;
+  --header-height:     104px;
+}
+
+/* ============================================================
+   GLOBAL RESET / BASE
+   ============================================================ */
+#root {
+  margin: 0 0;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+@keyframes page-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+#root > div > *:not(.header):not(.topmenu-bar) {
+  animation: page-fade-in 0.4s ease-out;
+}
+
+/* .pagebody is the site's ONE width authority: every page's content sits
+   inside it and should fill it. Don't add a narrower maxWidth in a
+   component to "improve readability" -- that's a per-file decision that
+   silently drifts from every other page and has had to be undone
+   piecemeal (News, Colloquium, Student Life, About Us, Plan Your Major
+   all had one at various points). If a real long-form-reading-width case
+   ever comes up, change --content-max-width, not a component. */
+.pagebody {
+  max-width: var(--content-max-width);
+  padding-right: 40px;
+}
+
+/* ============================================================
+   FONT FACES
+   ============================================================ */
+@font-face {
+  font-family: 'Eph Octic';
+  src: url('/fonts/EphOctic-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eph Octic';
+  src: url('/fonts/EphOctic-Light.otf') format('opentype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eph Octic';
+  src: url('/fonts/EphOctic-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eph Gothic';
+  src: url('/fonts/EphGothic-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eph Gothic';
+  src: url('/fonts/EphGothic-Light.otf') format('opentype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eph Gothic';
+  src: url('/fonts/EphGothic-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eph Serif';
+  src: url('/fonts/EphSerif-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eph Serif';
+  src: url('/fonts/EphSerif-Light.otf') format('opentype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eph Serif';
+  src: url('/fonts/EphSerif-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eph Serif';
+  src: url('/fonts/EphSerif-RegularItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Eph Serif';
+  src: url('/fonts/EphSerif-LightItalic.otf') format('opentype');
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Eph Serif';
+  src: url('/fonts/EphSerif-BoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Eph Slab';
+  src: url('/fonts/EphSlab-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eph Slab';
+  src: url('/fonts/EphSlab-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+/* ============================================================
+   TYPOGRAPHY
+   ============================================================ */
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Manrope is loaded at 200-800, so 800 is its boldest weight. */
+strong {
+  font-weight: 800;
+}
+
+ul {
+  font-family: var(--font-body);
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: -0.02em;
+}
+
+h1,
+.heading {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: normal;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding: 10px 5px 5px 10px;
+  cursor: default;
+}
+
+h2 {
+  font-family: var(--font-display);
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-family: var(--font-display);
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.subheading {
+  font-family: var(--font-display);
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px 5px 5px 10px;
+  cursor: default;
+}
+
+.plaintext {
+  font-family: var(--font-body);
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  cursor: default;
+  overflow-wrap: break-word;
+}
+
+.plaintext img {
+  max-width: 100%;
+  height: auto;
+}
+
+.plaintext table {
+  border-collapse: collapse;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.plaintext th,
+.plaintext td {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.plaintext th {
+  background-color: #f2f2f2;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: bold;
+}
+
+.tile {
+  font-family: var(--font-display);
+  font-weight: normal;
+  font-size: 28px;
+  margin: 1px;
+  cursor: default;
+}
+
+.tile-font-override {
+  font-family: var(--font-display);
+  font-weight: normal;
+}
+
+.semester {
+  font-size: 90px;
+  font-family: var(--font-display);
+}
+
+
+/* ============================================================
+   LAYOUT UTILITIES
+   ============================================================ */
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* ============================================================
+   HEADER & STICKY NAV
+   ============================================================ */
+.header {
+  height: var(--header-height);
+  background-color: white;
+  text-align: left;
+  font-family: var(--font-display);
+  font-weight: normal;
+  font-size: 52px;
+  color: var(--color-purple);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.williams-title {
+  margin: 0px;
+  padding: 16px 0px 0px 0px;
+}
+
+.williams-subtitle {
+  margin-top: -16px;
+  padding: 0px 0px 0px 14px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.topmenu-bar {
+  position: sticky;
+  top: var(--header-height);
+  z-index: 9;
+  background-color: white;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+}
+
+/* Each button is sized to its label, kept on one line, so all nine fit
+   in one row on wide screens. Narrower widths switch to tidy grids with
+   smaller type -- see the responsive rules below. */
+.topmenu {
+  font-family: var(--font-display);
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: default;
+  flex: 1 1 auto;
+  max-width: none;
+  min-height: 34px;
+  padding: 4px 8px;
+  white-space: nowrap;
+}
+
+.topmenu-link {
+  font-family: var(--font-display);
+  color: black;
+  font-weight: normal;
+}
+
+.topmenu-link:hover {
+  color: black;
+  font-weight: normal;
+}
+
+.topmenu-nohighlight {
+  background-color: lightgray;
+  color: black;
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer {
+  height: 80px;
+  background-color: var(--color-purple);
+  text-align: left;
+  font-family: var(--font-display);
+  font-weight: normal;
+  font-size: 30px;
+  color: white;
+}
+
+
+/* ============================================================
+   LINKS
+   ============================================================ */
+.williams-link {
+  color: white;
+  font-family: var(--font-display);
+  font-weight: normal;
+}
+
+.williams-link:hover {
+  color: var(--color-gold);
+  font-weight: normal;
+}
+
+.williams-link-header {
+  color: var(--color-purple);
+  font-family: var(--font-display);
+  font-weight: normal;
+}
+
+.williams-link-header:hover {
+  color: var(--color-gold);
+  font-weight: normal;
+}
+
+.link {
+  color: var(--color-purple);
+}
+
+.link:hover {
+  color: var(--color-gold);
+}
+
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+.fakelink {
+  color: var(--color-purple);
+  font-weight: normal;
+}
+
+.linkbox {
+  color: inherit;
+}
+
+.linkbox:hover {
+  background-color: var(--color-purple);
+  color: white;
+}
+
+
+/* ============================================================
+   SOFT CARDS / EYEBROWS / DISCLOSURES / PILL TABS
+   (redesign primitives: soft-shadow cards + small tracked-caps
+   labels, used in place of hard .linkbox borders and full-width
+   .heading black bars on redesigned pages)
+   ============================================================ */
+.soft-card {
+  background: white;
+  border: 1px solid rgba(16, 24, 40, 0.08);
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 1px 3px rgba(16, 24, 40, 0.06);
+  transition: box-shadow 150ms ease, border-color 150ms ease;
+  box-sizing: border-box;
+}
+
+.soft-card:hover {
+  box-shadow: 0 2px 6px rgba(16, 24, 40, 0.08), 0 4px 12px rgba(16, 24, 40, 0.08);
+  border-color: rgba(16, 24, 40, 0.12);
+}
+
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  color: var(--color-purple);
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.disclosure-head {
+  appearance: none;
+  width: 100%;
+  margin: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  text-align: left;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.disclosure-chevron {
+  flex: 0 0 16px;
+  transition: transform 150ms ease;
+}
+
+.pill-tab {
+  appearance: none;
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 14px;
+  padding: 8px 20px;
+  border-radius: 999px;
+  border: 2px solid black;
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+
+.pill-tab-active {
+  background: black;
+  color: white;
+}
+
+.news-tag {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.article-body {
+  line-height: 1.6;
+  color: #444444;
+}
+
+/* News' teaser renders twice (see News.jsx) so it can sit in different
+   positions relative to the photo at different widths via plain CSS
+   order, without breaking the desktop grouping of headline+teaser in
+   one column. Only one copy is ever visible at a time. */
+.news-teaser-mobile {
+  display: none;
+}
+
+/* Same idea for the photo: news highlight images are always square
+   (the "thumbnail" field, or the photo cropped to a square), beside the
+   headline on desktop and between headline and teaser on phones. */
+.news-thumbnail-mobile {
+  display: none;
+}
+
+
+/* ============================================================
+   PAGE / SECTION COLORS  (menu items, sidebar tiles)
+   ============================================================ */
+.frontpage-home {
+  background-color: var(--color-home);
+  color: black;
+}
+
+.frontpage-home:hover {
+  background-color: var(--color-home);
+  color: black;
+}
+
+.sidebar-about-us,
+.frontpage-about-us {
+  background-color: var(--color-about-us);
+  color: white;
+}
+
+.frontpage-about-us:hover {
+  background-color: var(--color-about-us);
+  color: white;
+}
+
+.sidebar-plan-your-major,
+.frontpage-plan-your-major {
+  background-color: var(--color-plan-major);
+  color: white;
+}
+
+.frontpage-plan-your-major:hover {
+  background-color: var(--color-plan-major);
+  color: white;
+}
+
+.sidebar-course-offerings,
+.frontpage-course-offerings {
+  background-color: var(--color-courses);
+  color: white;
+}
+
+.frontpage-course-offerings:hover {
+  background-color: var(--color-courses);
+  color: white;
+}
+
+.sidebar-colloquium {
+  background-color: var(--color-colloquium);
+  color: white;
+}
+
+.menubar-colloquium {
+  background-color: var(--color-colloquium);
+  color: white;
+}
+
+.menubar-colloquium:hover {
+  background-color: var(--color-colloquium);
+  color: white;
+}
+
+.sidebar-student-life,
+.frontpage-student-life {
+  background-color: var(--color-student-life);
+  color: white;
+}
+
+.frontpage-student-life:hover {
+  background-color: var(--color-student-life);
+  color: white;
+}
+
+.frontpage-research-opportunities,
+.sidebar-research-opportunities {
+  background-color: var(--color-research);
+  color: white;
+}
+
+.sidebar-research-opportunities {
+  font-size: 22px;
+}
+
+.frontpage-research-opportunities:hover {
+  background-color: var(--color-research);
+  color: white;
+}
+
+.sidebar-non-majors,
+.frontpage-non-majors {
+  background-color: var(--color-non-majors);
+  color: white;
+}
+
+.frontpage-non-majors:hover {
+  background-color: var(--color-non-majors);
+  color: white;
+}
+
+.explore-tile:hover {
+  font-family: 'Luckiest Guy', var(--font-display) !important;
+  font-size: 24px !important;
+}
+
+.sidebar-news {
+  background-color: var(--color-news);
+  color: white;
+  margin: 1px;
+}
+
+.frontpage-news {
+  background-color: var(--color-news);
+  color: white;
+}
+
+.frontpage-news:hover {
+  background-color: var(--color-news);
+  color: white;
+}
+
+/* news widget on the front page — lighter base, darkens on hover */
+.news-widget {
+  background-color: var(--color-news-light);
+  color: black;
+  font-family: var(--font-body);
+}
+
+.news-widget:hover {
+  background-color: var(--color-news);
+  color: white;
+}
+
+.selected {
+  background-color: var(--color-orange);
+}
+
+
+/* ============================================================
+   SPECIAL TILES
+   ============================================================ */
+.welcome-tile {
+  font-size: 22px;
+  font-family: var(--font-octic);
+  font-weight: lighter;
+  background-color: black;
+  color: chartreuse;
+  text-align: center;
+  margin: 1px;
+  cursor: default;
+}
+
+
+/* ============================================================
+   COURSES
+   ============================================================ */
+.course {
+  font-family: var(--font-gothic);
+}
+
+.program {
+  font-size: 10pt;
+  font-family: var(--font-gothic);
+}
+
+.program:hover {
+  background-color: coral;
+  transition: background-color 200ms;
+}
+
+
+/* ============================================================
+   NEWS
+   ============================================================ */
+.news-article-title {
+  font-family: var(--font-gothic);
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+
+/* ============================================================
+   PLAN YOUR MAJOR
+   ============================================================ */
+.plan-your-major-choose-your-path {
+  font-family: var(--font-gothic);
+  font-weight: bold;
+  cursor: default;
+}
+
+.plan-your-major-infobox {
+  margin: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  border: solid 2px chartreuse;
+  font-family: var(--font-octic);
+  font-weight: lighter;
+  background-color: black;
+  color: chartreuse;
+  height: 100px;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+.plan-your-major-infobox-warning {
+  margin: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  border: solid 2px var(--color-gold);
+  font-family: var(--font-octic);
+  font-weight: lighter;
+  background-color: black;
+  color: white;
+  height: 100px;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+.plan-your-major-infobox-warning-text {
+  color: var(--color-gold);
+  font-weight: normal;
+}
+
+.plan-your-major-infobox-error {
+  margin: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  border: solid 2px crimson;
+  font-family: var(--font-octic);
+  font-weight: lighter;
+  background-color: black;
+  color: white;
+  height: 100px;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+.plan-your-major-infobox-error-text {
+  color: crimson;
+  font-weight: normal;
+}
+
+.plan-your-major-dept {
+  font-family: var(--font-gothic);
+  font-weight: bold;
+  cursor: default;
+}
+
+.plan-your-major-course-number {
+  font-family: var(--font-gothic);
+  font-weight: normal;
+  cursor: default;
+}
+
+.major-req-highlight-error {
+  background-color: crimson;
+  border: solid 1px black;
+  color: white;
+}
+
+.major-req-highlight-warning {
+  background-color: var(--color-gold);
+  border: solid 1px black;
+  color: black;
+}
+
+.major-req-highlight {
+  background-color: chartreuse;
+  color: black;
+}
+
+.major-req-error {
+  background-color: black;
+  border: solid 1px crimson;
+  color: crimson;
+}
+
+.major-req-warning {
+  background-color: black;
+  border: solid 1px var(--color-gold);
+  color: var(--color-gold);
+}
+
+.major-req {
+  background-color: black;
+  border: solid 1px #444;
+  color: #ddd;
+}
+
+
+/* ============================================================
+   RESPONSIVE OVERRIDES  (narrow screens ≤ 600px)
+   Redefining --header-height here automatically updates both
+   .header height and .topmenu-bar top via var(--header-height).
+   ============================================================ */
+@media (max-width: 600px) {
+  :root {
+    --header-height: 80px;
+  }
+
+  /* hide the 80px left spacer everywhere so layout is full-width on mobile */
+  .left-spacer {
+    display: none;
+  }
+
+  .pagebody {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .header {
+    font-size: 36px;
+  }
+
+  .williams-title {
+    padding: 10px 0px 0px 0px;
+  }
+
+  .williams-subtitle {
+    margin-top: -10px;
+    padding: 0px 0px 0px 10px;
+    font-size: 14px;
+  }
+
+  .topmenu-bar {
+    padding-top: 4px;
+    padding-bottom: 16px;
+  }
+
+  /* 3 + 3 + 3 grid (the column widths are set in the <=749px rule below);
+     the font shrinks with the phone so "plan your major" fits a third. */
+  .topmenu {
+    font-size: clamp(11px, calc(((100vw - 28px) / 3 - 16px) / 8.375), 13px);
+  }
+
+  /* Side-by-side, the thumbnail reads as out of proportion to a tall
+     multi-line headline (align-items: center stacks it against the
+     middle of the whole text block, not the headline itself). Stack
+     the card instead: headline, then a larger centered photo, then
+     the teaser -- so the photo illustrates the headline rather than
+     floating next to it, and the teaser reads as a caption underneath.
+     Scoped to .news-disclosure-head so the shared .disclosure-head
+     layout (About Us, Plan Your Major, and News' own non-interactive
+     memorial-permalink case) is untouched. */
+  .news-disclosure-head {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .news-disclosure-head .news-disclosure-headline {
+    order: 0;
+  }
+
+  .news-disclosure-head .news-thumbnail-desktop {
+    display: none;
+  }
+
+  .news-disclosure-head .news-thumbnail-mobile {
+    display: block;
+    order: 1;
+    margin-top: 10px;
+  }
+
+  .news-disclosure-head .news-teaser-desktop {
+    display: none;
+  }
+
+  .news-disclosure-head .news-teaser-mobile {
+    display: block;
+    order: 2;
+    margin-top: 10px;
+  }
+
+  .news-disclosure-head .disclosure-chevron {
+    order: 3;
+    align-self: center;
+    margin-top: 6px;
+  }
+
+  /* The event photo's fixed 100-140px width otherwise squeezes the
+     title/abstract text into a narrow column on phones -- stack the
+     photo above the text at full width instead. */
+  .colloquium-event-row {
+    flex-flow: column nowrap !important;
+    align-items: stretch !important;
+    gap: 14px !important;
+  }
+
+  .colloquium-event-photo {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 220px !important;
+  }
+}
+
+/* Top menu at narrower widths. Every label stays on one line; the
+   longest, "plan your major", is ~8.4px wide per 1px of font size, which
+   sets how small the text must be to fit a given column. (Tuned to the
+   current nine labels -- revisit if a label gets longer.)
+   - 932-1076px: still one row; the font scales from 16px down to 13px
+     (the labels total ~45px of text per 1px of font size, and the row is
+     the window width minus ~120px).
+   - 750-931px:  clean 5 + 4 grid, font sized so labels fit a fifth.
+   - 601-749px:  3 + 3 + 3 grid (a fifth is too narrow here).
+   - <=600px:    3 + 3 + 3 grid (font set in the phone overrides above). */
+@media (min-width: 932px) and (max-width: 1076px) {
+  .topmenu {
+    padding: 4px 6px;
+    font-size: clamp(13px, calc((100vw - 340px) / 45.5), 16px);
+  }
+}
+
+@media (min-width: 750px) and (max-width: 931px) {
+  .topmenu {
+    flex: 0 1 calc(20% - 4.8px);
+    max-width: calc(20% - 4.8px);
+    padding: 4px;
+    font-size: clamp(13px, calc(((100vw - 120px) / 5 - 16.8px) / 8.375), 14px);
+  }
+
+  /* The last 4 (6th-9th) items are the second row -- stretch them across
+     the full width instead of sitting at the same fifth-width as the
+     first row's 5, which would leave them centered with gaps to spare. */
+  .topmenu:nth-child(n+6) {
+    flex: 0 1 calc(25% - 4.5px);
+    max-width: calc(25% - 4.5px);
+  }
+}
+
+@media (max-width: 749px) {
+  .topmenu {
+    flex: 0 1 calc(33.333% - 4px);
+    max-width: calc(33.333% - 4px);
+    padding: 4px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 749px) {
+  .topmenu {
+    font-size: 14px;
+  }
+}
+
+/* At 4-per-row, "colloquium" and "research" overflow their tile at the
+   base 18px size once the tile gets this narrow -- shrink it here, and
+   keep the experimental hover font bump from making that worse. Covers
+   the 600px phone breakpoint too, since 760 > 600. */
+@media (max-width: 760px) {
+  .explore-tile {
+    font-size: 13px !important;
+  }
+
+  .explore-tile:hover {
+    font-size: 17px !important;
+  }
+}
+
+/* Colloquium is always the leftmost tile of the grid's second row
+   (fixed 4-column grid, doesn't reflow), and the left-spacer that
+   otherwise cushions the page's left edge disappears at <=600px --
+   so its hover text has the least room to bleed left of any tile,
+   right in this range. Confirmed via high-DPI screenshots (not just
+   scrollWidth, which isn't a reliable clipping signal here) that 17px
+   clips "COLLOQUIUM"'s leading C in the 400-600px sub-range even
+   though it's safe from 700-760px. */
+@media (max-width: 600px) {
+  .explore-tile:hover {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .explore-tile:hover {
+    font-size: 12px !important;
+  }
+
+}
+
+/* Tiny phones (e.g. 320px): even 11px can't fit "plan your major" in a
+   third of the row, so let labels wrap onto two lines there. */
+@media (max-width: 340px) {
+  .topmenu {
+    white-space: normal;
+  }
+}

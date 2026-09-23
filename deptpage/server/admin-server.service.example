@@ -1,0 +1,28 @@
+# Template for a per-user systemd service running the admin panel on jersey.
+#
+# One-time setup on jersey (as ephs, no root needed):
+#   loginctl enable-linger              # survive logout/reboot (confirmed working, no root)
+#   node server/set-password.mjs <username>
+#   mkdir -p ~/.config/systemd/user
+#   cp server/admin-server.service.example ~/.config/systemd/user/admin-server.service
+#   systemctl --user daemon-reload
+#   systemctl --user enable --now admin-server.service
+#
+# Then from your laptop:
+#   ssh -L 8043:127.0.0.1:8043 ephs@jersey.cs.williams.edu
+#   open http://localhost:8043/login
+#
+# Logs: journalctl --user -u admin-server -f
+
+[Unit]
+Description=Math Dept Admin Panel
+After=network.target
+
+[Service]
+WorkingDirectory=%h/www/deptpage
+ExecStart=/bin/npm run dev -- --host 127.0.0.1 --port 8043 --strictPort
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

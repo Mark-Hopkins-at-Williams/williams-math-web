@@ -1,0 +1,41 @@
+{
+    "disclaimer": "During the 2026-27 academic year, the Mathematics Colloquium meets on Mondays and Wednesdays from 1:00pm to 1:45pm in Wachenheim 113, unless otherwise noted below.",
+    "events": [
+        {
+            "date": "September 25, 2026",
+            "speaker": "Victoria Booth",
+            "affiliation": "University of Michigan",
+            "title": "Mathematical modeling of sleep-wake regulation: a lesson in simplicity",
+            "location": "Wachenheim 015",
+            "time": "1:00pm",
+            "photo": "/images/colloquium/wachenheim.jpg",
+            "abstract": "Mathematical modeling has long contributed to our understanding of sleep-wake timing based on the interactions of the 24 hour circadian rhythm in alertness and the unavoidable need for sleep after spending time awake, known as the homeostatic sleep drive. These interactions were first quantified in the Two Process Model that represents circadian and homeostatic sleep drives with simple sinusoidal and exponential functions, respectively. More recent experimental studies have identified that sleep-wake transitions are governed by brainstem and hypothalamic neuronal populations that promote either sleep or wake states, leading to the concept of a neuronal sleep-wake regulation network that is modulated by circadian and homeostatic sleep drives. As a result, more complex mathematical models consisting of systems of nonlinear ordinary differential equations have been developed to capture the network dynamics among these neuronal populations and additionally to account for rapid-eye-movement (REM) and non-REM sleep states. In this talk, we’ll review these mathematical models, discuss applications of the models and show the surprising similarities between the solution structures of the simple Two Process Model and the more physiologically-based network models. This talk counts for colloquium credit."
+        },
+        {
+            "date": "September 28, 2026",
+            "speaker": "Chloe Lathrop",
+            "affiliation": "Williams College",
+            "title": "Systemic Risk and Stability in Financial Networks",
+            "photo": "/images/colloquium/wachenheim.jpg",
+            "abstract": "The talk will explore how the structure of financial networks affects systemic risk. Using a mathematical model of interconnected banks, it examines how financial obligations link institutions and shape the spread of distress through the system. It will introduce ideas such as payment equilibrium, liquidation, majorization, harmonic distance, and bottleneck parameters to study how shocks move through a network and how network structure influences financial stability."
+        },
+        {
+            "date": "September 30, 2026",
+            "speaker": "Nathan Vosburg",
+            "affiliation": "Williams College",
+            "title": "Invariant Means on ℤ: How to Assign a Size to Infinite Sets of Integers",
+            "photo": "/images/colloquium/wachenheim.jpg",
+            "abstract": "For a finite group, there is a natural way to assign a size to a subset: divide its cardinality by the size of the group. Can we define an analogous notion of size for every subset of the integers, in a way that does not change when the set is shifted? A natural first attempt is to consider the proportion of a set contained in larger and larger intervals. This works for many familiar subsets of ℤ, but for arbitrary sets the resulting sequence need not converge. In this talk, we will introduce ultrafilters and use them to define ultralimits, a generalized notion of limit that exists for every bounded real sequence. Applying an ultralimit to these finite densities allows us to construct a translation-invariant, finitely additive mean on all subsets of ℤ. If time permits, we will see how this construction points toward the notion of amenability and a broader connection between invariant means and the geometry of groups."
+        },
+        {
+            "date": "October 2, 2026",
+            "speaker": "Ralph Morrison",
+            "affiliation": "Williams College",
+            "title": "The d-gonal locus of tropical plane curves",
+            "location": "Wachenheim 015",
+            "time": "1:00pm",
+            "photo": "/images/people/ralph-morrison.jpg",
+            "abstract": "Given a nondegenerate algebraic curve, we can determine its gonality from the combinatorics of its Newton polygon.  It is an open problem whether the same holds for tropical plane curves.  To study this question, we introduce two spaces within the moduli space of tropical plane curves of genus g:  those that have gonality d, and those that arise from Newton polygons that “should” yield gonality d.   We prove that, for g sufficiently large compared to d, these two spaces have the same dimension.  Along the way we compute the dimensions of algebraic moduli spaces of nondegenerate curves of low gonality.  This is joint work with Desmont Leitz, Søren Newman-Taylor, and Vincent Wang from the SMALL 2025 REU. This talk counts for colloquium credit."
+        }
+    ]
+}

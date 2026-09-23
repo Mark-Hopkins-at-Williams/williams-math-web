@@ -1,0 +1,76 @@
+{
+    "groups": [
+        {
+            "abbreviation": "SMAB",
+            "name": "Student Math Advisory Board",
+            "description": "SMAB (formerly SMASAB) is the Student Math Advisory Board. Feel free to contact them, as well as Professor Julie Blackwood and other faculty, with questions and suggestions for the department.",
+            "photo": "/images/students/smab-photo-placeholder.jpg",
+            "leadership": [
+                {
+                    "name": "Yana Vranesko",
+                    "role": "President"
+                },
+                {
+                    "name": "Blayne Downer",
+                    "role": "Vice President"
+                },
+                {
+                    "name": "Charlotte Chen",
+                    "role": "Co-Secretary/Treasurer"
+                },
+                {
+                    "name": "Shirin Jamali",
+                    "role": "Co-Secretary/Treasurer"
+                },
+                {
+                    "name": "Shreya Seshadri",
+                    "role": "AMS Representative"
+                },
+                {
+                    "name": "Viki Fernandez",
+                    "role": "AWM Representative"
+                },
+                {
+                    "name": "Jason Lu",
+                    "role": "SIAM Representative"
+                },
+                {
+                    "name": "Oliver Berman",
+                    "role": "Sophomore Representative"
+                },
+                {
+                    "name": "Noam Pasman",
+                    "role": "Sophomore Representative"
+                }
+            ]
+        },
+        {
+            "abbreviation": "AWM",
+            "name": "Association for Women in Mathematics, Student Chapter",
+            "description": "We are the Williams College student chapter of the Association for Women in Mathematics (AWM), established in 2015. The Association's main mission is to \"create a community in which women and girls can thrive in their mathematical endeavors and to promote equitable opportunity and gender-inclusivity across the mathematical sciences.\" Our chapter is open and welcoming to everyone.",
+            "webpage": "https://sites.google.com/williams.edu/awm",
+            "details": [
+                "Favorite events include our annual kick-off gathering, pre-registration socials, student/faculty dinners, a Pi Day celebration, end-of-semester study breaks, alumni panels, an REU & summer opportunities workshop, and group coffee breaks. [Join the chapter](https://forms.gle/CTzhskqmNHGWMpA58) or follow us on [Instagram](https://www.instagram.com/awmwilliamsofficial/)."
+            ]
+        },
+        {
+            "abbreviation": "SIAM",
+            "name": "SIAM Student Chapter",
+            "description": "Williams' student chapter of the Society for Industrial and Applied Mathematics, the flagship applied mathematics society. Students interested in applied mathematics are encouraged to join SIAM (for free!) and the Williams chapter; see the applied mathematics pathway on the Plan Your Major page for more.",
+            "webpage": "https://www.siam.org/"
+        },
+        {
+            "abbreviation": "Mentoring",
+            "name": "Mathematics Mentoring Program",
+            "description": "The Mathematics Mentoring Program pairs first years and sophomores interested in mathematics with junior and senior mentors who will help them navigate through their academic experience in the department. Mentoring pairs meet at least once a month to discuss whatever issues are most pressing for the mentee: getting help in courses, studying for midterms, selecting courses, and more. (A mentor is not a tutor.)",
+            "details": [
+                "First years and sophomores can [request a mentor](https://docs.google.com/forms/d/e/1FAIpQLSeKasra9IZ5UPn9mhNRXPKz0xzE0EDBhY-kODsKTsPT22sUeg/viewform), and juniors and seniors can [apply to be a mentor](https://docs.google.com/forms/d/e/1FAIpQLSc7sz_l9N3gGKnqZdeWg5jCTLUm48sFpAPH2PH9VDDZef07nQ/viewform). Both forms require your Williams email account."
+            ]
+        },
+        {
+            "abbreviation": "Putnam",
+            "name": "Problem Solving Nights",
+            "description": "To prepare for the Putnam Competition in December, or to simply have fun solving challenging problems, come to Problem Solving Nights: 7-8pm every other Tuesday in Wachenheim 234. Problems range from very manageable to IMO/Putnam-level hard, and there will be snacks! Questions? Contact Professor Ian Seong (is11@williams.edu)."
+        }
+    ]
+}

@@ -1,0 +1,324 @@
+{
+    "disclaimer": "This tool is mainly intended to help you understand the structure of our major. It is not guaranteed that we will be able to offer every course in both fall and spring semesters, and most 300- and 400-level topics are offered only in alternate years.",
+    "content": [
+        {
+            "title": "major planning assistant",
+            "component": "MajorPlanningAssistant"
+        },
+        {
+            "title": "major requirements",
+            "article": "articles/major-requirements.md"
+        },
+        {
+            "title": "advanced placement",
+            "article": "articles/advanced-placement.md"
+        },
+        {
+            "title": "applied mathematics pathway",
+            "article": "articles/applied-math-pathway.md"
+        },
+        {
+            "title": "senior colloquium",
+            "article": "articles/senior-colloquium.md"
+        },
+        {
+            "title": "study away",
+            "article": "articles/study-away.md"
+        },
+        {
+            "title": "graduate school and careers",
+            "article": "articles/after-williams.md"
+        }
+    ],
+    "requirements": [
+        {
+            "id": "MATH 130",
+            "title": "Calculus I",
+            "info": "MATH 130 (Calculus I) is the starting point for students who have not seen calculus before. It is not one of the nine courses of the major. Students who have had calculus in high school are barred from MATH 130 unless they obtain permission from the instructor."
+        },
+        {
+            "id": "MATH 140",
+            "title": "Calculus II",
+            "prereqs": [
+                "MATH 130"
+            ],
+            "info": "MATH 140 (Calculus II) is one of the two calculus courses required for the major. Students planning to major in mathematics should complete the calculus sequence before the end of the sophomore year, at the latest.",
+            "error": "MATH 140 has MATH 130 (or equivalent) as a prerequisite."
+        },
+        {
+            "id": "MATH 150/151",
+            "title": "Multivariable Calculus",
+            "prereqs": [
+                "MATH 140"
+            ],
+            "info": "MATH 150 or 151 (Multivariable Calculus) is one of the two calculus courses required for the major. MATH 151 is intended for students with an AP BC score of 3 or higher, or who have seen integral calculus with infinite series.",
+            "error": "Multivariable calculus has MATH 140 (or equivalent) as a prerequisite."
+        },
+        {
+            "id": "MATH 200/220",
+            "title": "Applied/Discrete Requirement",
+            "recommended": [
+                "MATH 130",
+                "MATH 140"
+            ],
+            "info": "The applied/discrete mathematics/statistics requirement can be satisfied by MATH 200 (Discrete Mathematics) or MATH 220 (Foundations of Mathematical Thinking & Discrete Math; students may not take both), MATH 210 (Mathematical Methods for Scientists), STAT 201 (Statistics and Data Analysis), MATH 309 (Differential Equations), or a more advanced applied/discrete/statistics course with prior department approval.",
+            "warning": "MATH 200 and 220 require calculus at the level of an AP course or MATH 130 or 140."
+        },
+        {
+            "id": "STAT 201",
+            "title": "Statistics and Data Analysis",
+            "info": "STAT 201 (Statistics and Data Analysis) satisfies the applied/discrete mathematics/statistics requirement, and is the recommended choice for students following the applied mathematics pathway."
+        },
+        {
+            "id": "MATH 250",
+            "title": "Linear Algebra",
+            "recommended": [
+                "MATH 150/151",
+                "MATH 200/220"
+            ],
+            "info": "MATH 250 (Linear Algebra) is a core course, and a prerequisite for real analysis, abstract algebra, and most 300-level electives.",
+            "warning": "The catalog lists MATH 150/151 or MATH 200 as the prerequisite for MATH 250."
+        },
+        {
+            "id": "MATH 350/351",
+            "title": "Real Analysis",
+            "prereqs": [
+                "MATH 250"
+            ],
+            "info": "MATH 350 (Real Analysis) or MATH 351 (Applied Real Analysis) is a core course, normally offered every year. Students on the applied mathematics pathway should choose MATH 351.",
+            "error": "Real analysis has MATH 250 as a prerequisite."
+        },
+        {
+            "id": "MATH 355",
+            "title": "Abstract Algebra",
+            "prereqs": [
+                "MATH 250"
+            ],
+            "info": "MATH 355 (Abstract Algebra) is a core course, normally offered every year.",
+            "error": "MATH 355 has MATH 250 as a prerequisite."
+        },
+        {
+            "id": "MATH 3xx(1)",
+            "title": "Elective 1",
+            "recommended": [
+                "MATH 250"
+            ],
+            "info": "One of two mathematics or statistics electives from courses numbered 300 and above.",
+            "warning": "Most 300-level electives have MATH 250 as a prerequisite."
+        },
+        {
+            "id": "MATH 3xx(2)",
+            "title": "Elective 2",
+            "recommended": [
+                "MATH 250"
+            ],
+            "info": "One of two mathematics or statistics electives from courses numbered 300 and above.",
+            "warning": "Most 300-level electives have MATH 250 as a prerequisite."
+        },
+        {
+            "id": "MATH 4xx",
+            "title": "Senior Seminar",
+            "recommended": [
+                "MATH 350/351",
+                "MATH 355"
+            ],
+            "info": "One senior seminar: any mathematics or statistics course numbered between 400 and 479, taken at Williams College in the junior or senior year. Thesis courses do not count as senior seminars.",
+            "warning": "Most senior seminars have real analysis or abstract algebra as a prerequisite."
+        },
+        {
+            "id": "MATH 499",
+            "title": "Senior Colloquium",
+            "info": "Every senior major gives a colloquium talk of about 30 minutes, and must attend at least 20 colloquia (up to 5 of which can be from junior year). See the senior colloquium section below for details."
+        }
+    ],
+    "paths": [
+        {
+            "id": "day one",
+            "icon": "🏫",
+            "description": "you arrive at williams without having taken calculus",
+            "path": [
+                {
+                    "semester": "0",
+                    "courses": []
+                },
+                {
+                    "semester": "1a",
+                    "courses": [
+                        "MATH 130"
+                    ]
+                },
+                {
+                    "semester": "1b",
+                    "courses": [
+                        "MATH 140"
+                    ]
+                },
+                {
+                    "semester": "2a",
+                    "courses": [
+                        "MATH 150/151"
+                    ]
+                },
+                {
+                    "semester": "2b",
+                    "courses": [
+                        "MATH 200/220"
+                    ]
+                },
+                {
+                    "semester": "3a",
+                    "courses": [
+                        "MATH 250"
+                    ]
+                },
+                {
+                    "semester": "3b",
+                    "courses": [
+                        "MATH 350/351",
+                        "MATH 3xx(1)"
+                    ]
+                },
+                {
+                    "semester": "4a",
+                    "courses": [
+                        "MATH 355",
+                        "MATH 3xx(2)"
+                    ]
+                },
+                {
+                    "semester": "4b",
+                    "courses": [
+                        "MATH 4xx",
+                        "MATH 499"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ap calculus",
+            "icon": "🚀",
+            "description": "you arrive at williams with advanced placement in calculus",
+            "path": [
+                {
+                    "semester": "0",
+                    "courses": [
+                        "MATH 130",
+                        "MATH 140"
+                    ]
+                },
+                {
+                    "semester": "1a",
+                    "courses": [
+                        "MATH 150/151"
+                    ]
+                },
+                {
+                    "semester": "1b",
+                    "courses": [
+                        "MATH 250"
+                    ]
+                },
+                {
+                    "semester": "2a",
+                    "courses": [
+                        "MATH 200/220",
+                        "MATH 355"
+                    ]
+                },
+                {
+                    "semester": "2b",
+                    "courses": [
+                        "MATH 350/351"
+                    ]
+                },
+                {
+                    "semester": "3a",
+                    "courses": [
+                        "MATH 3xx(1)"
+                    ]
+                },
+                {
+                    "semester": "3b",
+                    "courses": [
+                        "MATH 3xx(2)"
+                    ]
+                },
+                {
+                    "semester": "4a",
+                    "courses": [
+                        "MATH 4xx"
+                    ]
+                },
+                {
+                    "semester": "4b",
+                    "courses": [
+                        "MATH 499"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "applied",
+            "icon": "🌿",
+            "description": "you're interested in the applied mathematics pathway",
+            "path": [
+                {
+                    "semester": "0",
+                    "courses": [
+                        "MATH 130"
+                    ]
+                },
+                {
+                    "semester": "1a",
+                    "courses": [
+                        "MATH 140"
+                    ]
+                },
+                {
+                    "semester": "1b",
+                    "courses": [
+                        "MATH 150/151"
+                    ]
+                },
+                {
+                    "semester": "2a",
+                    "courses": [
+                        "MATH 250",
+                        "STAT 201"
+                    ]
+                },
+                {
+                    "semester": "2b",
+                    "courses": [
+                        "MATH 350/351"
+                    ]
+                },
+                {
+                    "semester": "3a",
+                    "courses": [
+                        "MATH 3xx(1)",
+                        "MATH 355"
+                    ]
+                },
+                {
+                    "semester": "3b",
+                    "courses": [
+                        "MATH 3xx(2)"
+                    ]
+                },
+                {
+                    "semester": "4a",
+                    "courses": [
+                        "MATH 4xx"
+                    ]
+                },
+                {
+                    "semester": "4b",
+                    "courses": [
+                        "MATH 499"
+                    ]
+                }
+            ]
+        }
+    ]
+}

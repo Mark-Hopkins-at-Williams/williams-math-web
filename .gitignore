@@ -1,0 +1,11 @@
+.DS_Store
+images/.DS_Store
+
+# Local Claude Code settings (machine-specific paths and permissions)
+.claude/
+
+# Production build output, regenerated at the repo root by `npm run deploy`
+# (deptpage/). This branch holds source only; the GitHub Pages review copy
+# is built separately by `npm run deploy:preview` into ../williams-math-web-preview.
+/index.html
+/assets/

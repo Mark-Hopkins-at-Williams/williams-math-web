@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+# Redirect direct requests for index.html to the root
+  RewriteCond %{REQUEST_URI} ^/index\.html$
+  RewriteRule ^ / [R=301,L]
+
+# /home duplicated the homepage at a second URL; canonicalize to /
+  RewriteRule ^home/?$ / [R=301,L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [L]
+</IfModule>

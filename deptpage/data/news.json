@@ -1,0 +1,76 @@
+{
+    "articles": [
+        {
+            "id": "article-awm-meet-greet-2026",
+            "date": "September 22, 2026",
+            "title": "AWM Student Chapter Meet & Greet, Thursday 9/24 at 2-3pm",
+            "thumbnail": "/images/misc/awm-logo-thumb-lavender.jpg",
+            "article": "articles/awm-meet-greet-2026.md",
+            "teaser": "Join the AWM Student Chapter for its first Meet & Greet of the year in the Frank Morgan Library!"
+        },
+        {
+            "id": "article-problem-solving-nights-2026",
+            "date": "September 16, 2026",
+            "title": "Problem Solving Nights, Tuesdays Biweekly, 7-8pm, Wachenheim 234",
+            "thumbnail": "/images/misc/problem-solving-thumb.jpg",
+            "article": "articles/problem-solving-nights-2026.md",
+            "teaser": "The Putnam Competition is back! Prepare (or just have fun) at biweekly Problem Solving Nights."
+        },
+        {
+            "id": "article-mentoring-program-2026",
+            "date": "August 17, 2026",
+            "title": "Mathematics Mentoring Program, Fall 2026",
+            "article": "articles/mentoring-program.md",
+            "teaser": "First years and sophomores: request a junior or senior mentor for Fall 2026 by September 25."
+        },
+        {
+            "id": "article-florian-luca",
+            "date": "July 31, 2026",
+            "title": "The Passing of Professor Florian Luca",
+            "article": "articles/florian-luca.md",
+            "teaser": "Remembering Florian Luca, Visiting Professor in the department during 2006-2007."
+        },
+        {
+            "id": "article-mathematically-bent-theater-2026",
+            "date": "April 15, 2026",
+            "title": "Mathematically Bent Theater",
+            "article": "articles/mathematically-bent-theater-2026.md",
+            "teaser": "Colin Adams and company perform four short, humorous, mathematically bent pieces, hosted by the Museum of Mathematics."
+        },
+        {
+            "id": "article-awm-symposium-2026",
+            "date": "March 5, 2026",
+            "title": "AWM Symposium, Saturday March 7th",
+            "article": "articles/awm-symposium-2026.md",
+            "teaser": "The Williams AWM chapter hosts a regional symposium for students and faculty from across New England."
+        },
+        {
+            "id": "article-colloquium-fest-2026",
+            "date": "January 16, 2026",
+            "title": "Williams College Mathematics Colloquium Fest 2026",
+            "article": "articles/colloquium-fest-2026.md",
+            "teaser": "Twelve colloquia in two parallel sessions on January 26, plus pizza!"
+        },
+        {
+            "id": "article-putnam-2025",
+            "date": "November 24, 2025",
+            "title": "The 86th MAA Putnam Competition",
+            "article": "articles/putnam-2025.md",
+            "teaser": "Sign up for the Putnam Competition on Saturday, December 6th."
+        },
+        {
+            "id": "article-putnam-84th-results",
+            "date": "February 26, 2024",
+            "title": "Williams College at the 84th Putnam",
+            "article": "articles/putnam-84th-results.md",
+            "teaser": "Twenty Williams students took the Putnam; Jonathan Geller and Yuan Qiu both scored in the top 250."
+        },
+        {
+            "id": "article-best-writing-nullstellenfont",
+            "date": "April 8, 2021",
+            "title": "The Best Writing in Mathematics Features Work by Ben Logsdon '20, Anya Michaelsen '19, and Prof. Ralph Morrison",
+            "article": "articles/best-writing-nullstellenfont.md",
+            "teaser": "\"Nullstellenfont,\" which began as a Math 487 final project, was selected for The Best Writing in Mathematics 2021."
+        }
+    ]
+}

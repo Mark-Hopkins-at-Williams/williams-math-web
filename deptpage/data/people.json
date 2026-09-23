@@ -1,0 +1,197 @@
+{
+    "people": [
+        {
+            "id": "Colin C. Adams",
+            "photo": "/images/people/colin-adams.jpg",
+            "role": "faculty",
+            "title": "Thomas T. Read Professor of Mathematics",
+            "webpage": "https://sites.williams.edu/cadams/",
+            "office": "Wachenheim 343"
+        },
+        {
+            "id": "Christina Athanasouli",
+            "photo": "/images/people/christina-athanasouli.jpg",
+            "role": "faculty",
+            "title": "Assistant Professor of Mathematics",
+            "office": "Wachenheim 341"
+        },
+        {
+            "id": "Julie C. Blackwood",
+            "photo": "/images/people/julie-blackwood.jpg",
+            "role": "faculty",
+            "title": "Chair and William R. Kenan, Jr. Professor of Mathematics",
+            "webpage": "http://sites.williams.edu/jcb5/",
+            "office": "Wachenheim 336"
+        },
+        {
+            "id": "Natasha Crepeau",
+            "photo": "/images/people/natasha-crepeau.jpg",
+            "role": "faculty",
+            "title": "Visiting Assistant Professor of Mathematics",
+            "webpage": "https://sites.google.com/view/natasha-crepeau-math/home",
+            "office": "Wachenheim 246"
+        },
+        {
+            "id": "Thomas A. Garrity",
+            "photo": "/images/people/thomas-garrity.jpg",
+            "role": "faculty",
+            "title": "Webster Atwell Class of 1921 Professor of Mathematics",
+            "office": "Wachenheim 242"
+        },
+        {
+            "id": "Leo Goldmakher",
+            "photo": "/images/people/leo-goldmakher.jpg",
+            "role": "faculty",
+            "title": "Professor of Mathematics",
+            "office": "Wachenheim 337"
+        },
+        {
+            "id": "Joe Kraisler",
+            "photo": "/images/people/joe-kraisler.jpg",
+            "role": "faculty",
+            "title": "Assistant Professor of Mathematics",
+            "webpage": "https://joekraisler.com/",
+            "office": "Wachenheim 241"
+        },
+        {
+            "id": "Susan R. Loepp",
+            "photo": "/images/people/susan-loepp.jpg",
+            "role": "faculty",
+            "title": "William Dwight Whitney Professor of Mathematics",
+            "office": "Wachenheim 340"
+        },
+        {
+            "id": "Steven J. Miller",
+            "photo": "/images/people/steven-miller.jpg",
+            "role": "faculty",
+            "title": "Dennis Meenan '54 Third Century Professor of Mathematics",
+            "webpage": "https://web.williams.edu/Mathematics/sjmiller/public_html/",
+            "office": "Wachenheim 339"
+        },
+        {
+            "id": "Ralph E. Morrison",
+            "photo": "/images/people/ralph-morrison.jpg",
+            "role": "faculty",
+            "title": "Associate Professor of Mathematics",
+            "webpage": "http://sites.williams.edu/10rem/",
+            "office": "Wachenheim 237"
+        },
+        {
+            "id": "Allison Pacelli",
+            "photo": "/images/people/allison-pacelli.jpg",
+            "role": "faculty",
+            "title": "Professor of Mathematics",
+            "office": "Wachenheim 243"
+        },
+        {
+            "id": "Madeline M. Parker",
+            "photo": "/images/people/madeline-parker.jpg",
+            "role": "faculty",
+            "title": "Assistant Professor of Mathematics",
+            "webpage": "https://madelineparker379.github.io",
+            "office": "Wachenheim"
+        },
+        {
+            "id": "Alec Payne",
+            "photo": "/images/people/alec-payne.jpg",
+            "role": "faculty",
+            "title": "Assistant Professor of Mathematics",
+            "webpage": "https://sites.google.com/view/alecpayne",
+            "office": "Wachenheim 247"
+        },
+        {
+            "id": "Ian Min Gyu Seong",
+            "photo": "/images/people/ian-seong.jpg",
+            "role": "faculty",
+            "title": "Visiting Assistant Professor of Mathematics",
+            "webpage": "https://sites.google.com/view/ianseong",
+            "office": "Thompson Biology 309B"
+        },
+        {
+            "id": "Cesar E. Silva",
+            "photo": "/images/people/cesar-silva.jpg",
+            "role": "faculty",
+            "title": "Hagey Family Professor of Mathematics",
+            "office": "Wachenheim 342"
+        },
+        {
+            "id": "Mihai Stoiciu",
+            "photo": "/images/people/mihai-stoiciu.jpg",
+            "role": "faculty",
+            "title": "Class of 2012 Professor of Mathematics",
+            "office": "Wachenheim 334"
+        },
+        {
+            "id": "Cory Nyren",
+            "photo": "/images/people/cory-nyren.jpg",
+            "role": "staff",
+            "title": "Administrative Coordinator",
+            "office": "Wachenheim 233"
+        },
+        {
+            "id": "Stewart D. Johnson",
+            "photo": "/images/people/stewart-johnson.jpg",
+            "role": "emeriti",
+            "title": "Professor of Mathematics, Emeritus"
+        },
+        {
+            "id": "Frank Morgan",
+            "photo": "/images/people/frank-morgan.jpg",
+            "role": "emeriti",
+            "title": "Webster Atwell - Class of 1921 Professor of Mathematics, Emeritus",
+            "webpage": "http://sites.williams.edu/Morgan/"
+        },
+        {
+            "id": "Guilford L. Spencer II",
+            "photo": "/images/people/placeholder.jpg",
+            "role": "emeriti",
+            "title": "Frederick Latimer Wells Professor of Mathematics, Emeritus"
+        },
+        {
+            "id": "Olga Beaver",
+            "photo": "/images/people/placeholder.jpg",
+            "role": "emeriti",
+            "title": "In memoriam"
+        },
+        {
+            "id": "Catherine Kealhofer",
+            "photo": "/images/people/catherine-kealhofer.jpg",
+            "role": "affiliate",
+            "title": "Associate Professor of Physics",
+            "office": "Hopper 30",
+            "webpage": "https://physics.williams.edu/profile/ck12/"
+        },
+        {
+            "id": "Samuel McCauley",
+            "photo": "/images/people/samuel-mccauley.jpg",
+            "role": "affiliate",
+            "title": "Associate Professor of Computer Science",
+            "webpage": "http://dept.cs.williams.edu/~sam/",
+            "office": "TPL 304"
+        },
+        {
+            "id": "Keith E. McPartland",
+            "photo": "/images/people/keith-mcpartland.jpg",
+            "role": "affiliate",
+            "title": "Associate Professor of Philosophy",
+            "office": "Schapiro 105",
+            "webpage": "https://philosophy.williams.edu/profile/kem1/"
+        },
+        {
+            "id": "Betül Pamuk",
+            "photo": "/images/people/betul-pamuk.jpg",
+            "role": "affiliate",
+            "title": "Assistant Professor of Physics",
+            "office": "Hopper 22",
+            "webpage": "https://physics.williams.edu/profile/bp13/"
+        },
+        {
+            "id": "Benjamin Bradbury Seiler",
+            "photo": "/images/people/benjamin-seiler.jpg",
+            "role": "affiliate",
+            "title": "Assistant Professor of Statistics",
+            "webpage": "https://www.williams.edu/stats/profile/bbs1/",
+            "office": "Wachenheim 335"
+        }
+    ]
+}

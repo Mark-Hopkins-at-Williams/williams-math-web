@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mathematics - Williams College</title>
+    <meta name="description" content="The Mathematics department at Williams College: courses, the major, research opportunities, colloquium talks, and student life." />
+    <meta property="og:title" content="Mathematics - Williams College" />
+    <meta property="og:description" content="The Mathematics department at Williams College: courses, the major, research opportunities, colloquium talks, and student life." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Luckiest+Guy&family=Manrope:wght@200..800&family=Russo+One&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <script>
+      (function(l) {
+        if (l.search[1] === '/') {
+          // 404.html may add a "~v=<timestamp>" marker so the redirect lands on
+          // a never-before-seen URL (bypassing any cached copy of this page);
+          // drop it before restoring the real path.
+          var decoded = l.search.slice(1).split('&').filter(function(s) {
+            return s.indexOf('~v=') !== 0;
+          }).map(function(s) {
+            return s.replace(/~and~/g, '&');
+          });
+          window.history.replaceState(null, null,
+            decoded.shift() + (decoded.length ? '?' + decoded.join('&') : '') + l.hash
+          );
+        }
+      }(window.location));
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!--
+      The rest of this page is a client-rendered React app, so the raw
+      HTML a non-JS fetcher sees is otherwise just the empty div above.
+      This nav exists purely to give crawlers a real link graph to the
+      site's top-level routes -- some crawlers don't extract links from
+      <noscript> blocks (tried that first), so these are real anchors,
+      just visually hidden for JS-enabled browsers via inline styles
+      (not display:none/visibility:hidden, which some crawlers treat as
+      a signal to ignore the content). Keep in sync with src/App.jsx.
+      Hrefs use Vite's BASE_URL placeholder (filled in at build time) so they
+      stay correct when the site is served from a subpath.
+    -->
+    <nav style="position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;">
+      <a href="%BASE_URL%">Home</a>
+      <a href="%BASE_URL%about-us/">About Us</a>
+      <a href="%BASE_URL%plan-your-major/">Plan Your Major</a>
+      <a href="%BASE_URL%courses/">Courses</a>
+      <a href="%BASE_URL%colloquium/">Colloquium</a>
+      <a href="%BASE_URL%student-life/">Student Life</a>
+      <a href="%BASE_URL%research/">Research Opportunities</a>
+      <a href="%BASE_URL%non-majors/">Non-Majors</a>
+      <a href="%BASE_URL%news/">News</a>
+    </nav>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

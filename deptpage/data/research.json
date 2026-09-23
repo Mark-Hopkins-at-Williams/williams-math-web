@@ -1,0 +1,34 @@
+{
+    "content": [
+        {
+            "title": "Honors Thesis",
+            "photo": "/images/misc/thesis-talk.jpg",
+            "article": "articles/thesis.md"
+        },
+        {
+            "title": "SMALL Undergraduate Research Program",
+            "photo": "/images/misc/small-parade-2013.jpg",
+            "article": "articles/small.md"
+        },
+        {
+            "title": "Current SMALL Groups (2026)",
+            "article": "articles/small-2026-groups.md",
+            "collapsed": true
+        },
+        {
+            "title": "Applying to SMALL",
+            "article": "articles/small-applying.md",
+            "collapsed": true
+        },
+        {
+            "title": "Previous SMALL Groups",
+            "article": "articles/small-past-groups.md",
+            "collapsed": true
+        },
+        {
+            "title": "SMALL Research Publications",
+            "article": "articles/small-publications.md",
+            "collapsed": true
+        }
+    ]
+}

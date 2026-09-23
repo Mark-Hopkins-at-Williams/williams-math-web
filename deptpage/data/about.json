@@ -1,0 +1,16 @@
+{
+    "content": [
+        {
+            "title": "about the major",
+            "article": "articles/about-the-major.md"
+        },
+        {
+            "title": "learning goals",
+            "article": "articles/learning-goals.md"
+        },
+        {
+            "title": "ams exemplary program award",
+            "article": "articles/ams-award.md"
+        }
+    ]
+}

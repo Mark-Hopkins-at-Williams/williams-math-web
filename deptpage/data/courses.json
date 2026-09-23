@@ -1,0 +1,906 @@
+{
+    "sections": [
+        {
+            "id": "f26-math102-T1",
+            "course": "MATH 102",
+            "semester": "Fall 2026",
+            "sectionNumber": "T1",
+            "instructors": [
+                "Julie C. Blackwood"
+            ],
+            "lecture": "TBA",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=102&crsid=019206&req_year=0"
+        },
+        {
+            "id": "f26-math130-1",
+            "course": "MATH 130",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Ian Min Gyu Seong"
+            ],
+            "lecture": "MWF 8-850am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=130&crsid=011641&req_year=0"
+        },
+        {
+            "id": "f26-math130-2",
+            "course": "MATH 130",
+            "semester": "Fall 2026",
+            "sectionNumber": "2",
+            "instructors": [
+                "Ian Min Gyu Seong"
+            ],
+            "lecture": "MWF 11-1150am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=130&crsid=011641&req_year=0"
+        },
+        {
+            "id": "f26-math140-1",
+            "course": "MATH 140",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Natasha Crepeau"
+            ],
+            "lecture": "MWF 8-850am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=140&crsid=011642&req_year=0"
+        },
+        {
+            "id": "f26-math140-2",
+            "course": "MATH 140",
+            "semester": "Fall 2026",
+            "sectionNumber": "2",
+            "instructors": [
+                "Natasha Crepeau"
+            ],
+            "lecture": "MWF 9-950am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=140&crsid=011642&req_year=0"
+        },
+        {
+            "id": "f26-math150-1",
+            "course": "MATH 150",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Christina Athanasouli"
+            ],
+            "lecture": "MWF 9-950am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=150&crsid=011643&req_year=0"
+        },
+        {
+            "id": "f26-math150-2",
+            "course": "MATH 150",
+            "semester": "Fall 2026",
+            "sectionNumber": "2",
+            "instructors": [
+                "Christina Athanasouli"
+            ],
+            "lecture": "MWF 10-1050am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=150&crsid=011643&req_year=0"
+        },
+        {
+            "id": "f26-math150-3",
+            "course": "MATH 150",
+            "semester": "Fall 2026",
+            "sectionNumber": "3",
+            "instructors": [
+                "Christina Athanasouli"
+            ],
+            "lecture": "MWF 11-1150am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=150&crsid=011643&req_year=0"
+        },
+        {
+            "id": "f26-math151-1",
+            "course": "MATH 151",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Colin C. Adams"
+            ],
+            "lecture": "MWF 9-950am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=151&crsid=016934&req_year=0"
+        },
+        {
+            "id": "f26-math151-2",
+            "course": "MATH 151",
+            "semester": "Fall 2026",
+            "sectionNumber": "2",
+            "instructors": [
+                "Colin C. Adams"
+            ],
+            "lecture": "MWF 10-1050am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=151&crsid=016934&req_year=0"
+        },
+        {
+            "id": "f26-math151-3",
+            "course": "MATH 151",
+            "semester": "Fall 2026",
+            "sectionNumber": "3",
+            "instructors": [
+                "Colin C. Adams"
+            ],
+            "lecture": "MWF 11-1150am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=151&crsid=016934&req_year=0"
+        },
+        {
+            "id": "f26-math200-1",
+            "course": "MATH 200",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Ralph E. Morrison"
+            ],
+            "lecture": "TuTh 830-945am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=200&crsid=011655&req_year=0"
+        },
+        {
+            "id": "f26-math200-2",
+            "course": "MATH 200",
+            "semester": "Fall 2026",
+            "sectionNumber": "2",
+            "instructors": [
+                "Ralph E. Morrison"
+            ],
+            "lecture": "TuTh 955-1110am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=200&crsid=011655&req_year=0"
+        },
+        {
+            "id": "f26-math250-1",
+            "course": "MATH 250",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Madeline M. Parker"
+            ],
+            "lecture": "MWF 8-850am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=250&crsid=011651&req_year=0"
+        },
+        {
+            "id": "f26-math250-2",
+            "course": "MATH 250",
+            "semester": "Fall 2026",
+            "sectionNumber": "2",
+            "instructors": [
+                "Madeline M. Parker"
+            ],
+            "lecture": "MWF 9-950am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=250&crsid=011651&req_year=0"
+        },
+        {
+            "id": "f26-math309-1",
+            "course": "MATH 309",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Joe Kraisler"
+            ],
+            "lecture": "TuTh 830-945am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=309&crsid=020504&req_year=0"
+        },
+        {
+            "id": "f26-math316-1",
+            "course": "MATH 316",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Susan R. Loepp",
+                "Catherine Kealhofer"
+            ],
+            "lecture": "MWF 11-1150am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=316&crsid=011668&req_year=0"
+        },
+        {
+            "id": "f26-math317-1",
+            "course": "MATH 317",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Steven J. Miller"
+            ],
+            "lecture": "MWF 9-950am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=317&crsid=019925&req_year=0"
+        },
+        {
+            "id": "f26-math326-1",
+            "course": "MATH 326",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Alec Payne"
+            ],
+            "lecture": "TuTh 955-1110am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=326&crsid=011671&req_year=0"
+        },
+        {
+            "id": "f26-math341-1",
+            "course": "MATH 341",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Benjamin Bradbury Seiler"
+            ],
+            "lecture": "TuTh 955-1110am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=341&crsid=011677&req_year=0"
+        },
+        {
+            "id": "f26-math350-1",
+            "course": "MATH 350",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Joe Kraisler"
+            ],
+            "lecture": "TuTh 955-1110am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=350&crsid=011658&req_year=0"
+        },
+        {
+            "id": "f26-math355-1",
+            "course": "MATH 355",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Susan R. Loepp"
+            ],
+            "lecture": "MWF 10-1050am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=355&crsid=011664&req_year=0"
+        },
+        {
+            "id": "f26-math384-T1",
+            "course": "MATH 384",
+            "semester": "Fall 2026",
+            "sectionNumber": "T1",
+            "instructors": [
+                "Mihai Stoiciu"
+            ],
+            "lecture": "TBA",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=384&crsid=023312&req_year=0"
+        },
+        {
+            "id": "f26-math405-1",
+            "course": "MATH 405",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Thomas A. Garrity"
+            ],
+            "lecture": "TuTh 830-945am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=405&crsid=021908&req_year=0"
+        },
+        {
+            "id": "f26-math409-1",
+            "course": "MATH 409",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Steven J. Miller"
+            ],
+            "lecture": "MWF 10-1050am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=409&crsid=022122&req_year=0"
+        },
+        {
+            "id": "f26-math476-1",
+            "course": "MATH 476",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Alec Payne"
+            ],
+            "lecture": "TuTh 1120am-1235pm",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=476&crsid=023334&req_year=0"
+        },
+        {
+            "id": "f26-math493-1",
+            "course": "MATH 493",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Julie C. Blackwood"
+            ],
+            "lecture": "TBA",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=493&crsid=011715&req_year=0"
+        },
+        {
+            "id": "f26-math497-1",
+            "course": "MATH 497",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Julie C. Blackwood"
+            ],
+            "lecture": "TBA",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=497&crsid=011717&req_year=0"
+        },
+        {
+            "id": "f26-math499-1",
+            "course": "MATH 499",
+            "semester": "Fall 2026",
+            "sectionNumber": "1",
+            "instructors": [
+                "Julie C. Blackwood"
+            ],
+            "lecture": "TBA",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1271&cn=499&crsid=011719&req_year=0"
+        },
+        {
+            "id": "s27-math111-1",
+            "course": "MATH 111",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Steven J. Miller"
+            ],
+            "lecture": "MWF 11-1150am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=111&crsid=023335&req_year=0"
+        },
+        {
+            "id": "s27-math130-1",
+            "course": "MATH 130",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Natasha Crepeau"
+            ],
+            "lecture": "MWF 11-1150am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=130&crsid=011641&req_year=0"
+        },
+        {
+            "id": "s27-math140-1",
+            "course": "MATH 140",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Thomas A. Garrity"
+            ],
+            "lecture": "MWF 9-950am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=140&crsid=011642&req_year=0"
+        },
+        {
+            "id": "s27-math150-1",
+            "course": "MATH 150",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Thomas A. Garrity"
+            ],
+            "lecture": "MWF 10-1050am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=150&crsid=011643&req_year=0"
+        },
+        {
+            "id": "s27-math150-2",
+            "course": "MATH 150",
+            "semester": "Spring 2027",
+            "sectionNumber": "2",
+            "instructors": [
+                "Thomas A. Garrity"
+            ],
+            "lecture": "MWF 11-1150am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=150&crsid=011643&req_year=0"
+        },
+        {
+            "id": "s27-math210-1",
+            "course": "MATH 210",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Betül Pamuk"
+            ],
+            "lecture": "TuTh 955-1110am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=210&crsid=011895&req_year=0"
+        },
+        {
+            "id": "s27-math210-2",
+            "course": "MATH 210",
+            "semester": "Spring 2027",
+            "sectionNumber": "2",
+            "instructors": [
+                "Betül Pamuk"
+            ],
+            "lecture": "T 1-4pm (lab)",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=210&crsid=011895&req_year=0"
+        },
+        {
+            "id": "s27-math220-1",
+            "course": "MATH 220",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Ralph E. Morrison"
+            ],
+            "lecture": "TuTh 830-945am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=220&crsid=023033&req_year=0"
+        },
+        {
+            "id": "s27-math220-2",
+            "course": "MATH 220",
+            "semester": "Spring 2027",
+            "sectionNumber": "2",
+            "instructors": [
+                "Ralph E. Morrison"
+            ],
+            "lecture": "TuTh 955-1110am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=220&crsid=023033&req_year=0"
+        },
+        {
+            "id": "s27-math250-1",
+            "course": "MATH 250",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Susan R. Loepp"
+            ],
+            "lecture": "MWF 9-950am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=250&crsid=011651&req_year=0"
+        },
+        {
+            "id": "s27-math250-2",
+            "course": "MATH 250",
+            "semester": "Spring 2027",
+            "sectionNumber": "2",
+            "instructors": [
+                "Susan R. Loepp"
+            ],
+            "lecture": "MWF 10-1050am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=250&crsid=011651&req_year=0"
+        },
+        {
+            "id": "s27-math309-1",
+            "course": "MATH 309",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Madeline M. Parker"
+            ],
+            "lecture": "MWF 9-950am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=309&crsid=020504&req_year=0"
+        },
+        {
+            "id": "s27-math309-2",
+            "course": "MATH 309",
+            "semester": "Spring 2027",
+            "sectionNumber": "2",
+            "instructors": [
+                "Madeline M. Parker"
+            ],
+            "lecture": "MWF 10-1050am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=309&crsid=020504&req_year=0"
+        },
+        {
+            "id": "s27-math313-1",
+            "course": "MATH 313",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Leo Goldmakher"
+            ],
+            "lecture": "MTh 235-350pm",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=313&crsid=011665&req_year=0"
+        },
+        {
+            "id": "s27-math321-1",
+            "course": "MATH 321",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Colin C. Adams"
+            ],
+            "lecture": "TuTh 955-1110am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=321&crsid=011670&req_year=0"
+        },
+        {
+            "id": "s27-math334-1",
+            "course": "MATH 334",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Natasha Crepeau"
+            ],
+            "lecture": "MWF 10-1050am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=334&crsid=011682&req_year=0"
+        },
+        {
+            "id": "s27-math336-1",
+            "course": "MATH 336",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Ian Min Gyu Seong"
+            ],
+            "lecture": "MWF 9-950am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=336&crsid=023417&req_year=0"
+        },
+        {
+            "id": "s27-math338-1",
+            "course": "MATH 338",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Keith E. McPartland"
+            ],
+            "lecture": "TuF 110-225pm",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=338&crsid=021426&req_year=0"
+        },
+        {
+            "id": "s27-math341-1",
+            "course": "MATH 341",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Steven J. Miller"
+            ],
+            "lecture": "MWF 12-1250pm",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=341&crsid=011677&req_year=0"
+        },
+        {
+            "id": "s27-math350-1",
+            "course": "MATH 350",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Joe Kraisler"
+            ],
+            "lecture": "TuTh 830-945am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=350&crsid=011658&req_year=0"
+        },
+        {
+            "id": "s27-math351-1",
+            "course": "MATH 351",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Christina Athanasouli"
+            ],
+            "lecture": "MWF 9-950am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=351&crsid=011660&req_year=0"
+        },
+        {
+            "id": "s27-math355-1",
+            "course": "MATH 355",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Alec Payne"
+            ],
+            "lecture": "TuTh 955-1110am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=355&crsid=011664&req_year=0"
+        },
+        {
+            "id": "s27-math355-2",
+            "course": "MATH 355",
+            "semester": "Spring 2027",
+            "sectionNumber": "2",
+            "instructors": [
+                "Alec Payne"
+            ],
+            "lecture": "TuTh 1120am-1235pm",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=355&crsid=011664&req_year=0"
+        },
+        {
+            "id": "s27-math361-1",
+            "course": "MATH 361",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Samuel McCauley"
+            ],
+            "lecture": "TuTh 955-1110am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=361&crsid=010814&req_year=0"
+        },
+        {
+            "id": "s27-math401-1",
+            "course": "MATH 401",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Mihai Stoiciu"
+            ],
+            "lecture": "TuTh 830-945am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=401&crsid=017511&req_year=0"
+        },
+        {
+            "id": "s27-math412-1",
+            "course": "MATH 412",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Julie C. Blackwood"
+            ],
+            "lecture": "TuTh 1120am-1235pm",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=412&crsid=020669&req_year=0"
+        },
+        {
+            "id": "s27-math417-1",
+            "course": "MATH 417",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Ian Min Gyu Seong"
+            ],
+            "lecture": "MWF 11-1150am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=417&crsid=023418&req_year=0"
+        },
+        {
+            "id": "s27-math453-1",
+            "course": "MATH 453",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Joe Kraisler"
+            ],
+            "lecture": "TuTh 955-1110am",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=453&crsid=020811&req_year=0"
+        },
+        {
+            "id": "s27-math479-T1",
+            "course": "MATH 479",
+            "semester": "Spring 2027",
+            "sectionNumber": "T1",
+            "instructors": [
+                "Leo Goldmakher"
+            ],
+            "lecture": "TBA",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=479&crsid=020061&req_year=0"
+        },
+        {
+            "id": "s27-math494-1",
+            "course": "MATH 494",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Julie C. Blackwood"
+            ],
+            "lecture": "TBA",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=494&crsid=011716&req_year=0"
+        },
+        {
+            "id": "s27-math498-1",
+            "course": "MATH 498",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Julie C. Blackwood"
+            ],
+            "lecture": "TBA",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=498&crsid=011718&req_year=0"
+        },
+        {
+            "id": "s27-math499-1",
+            "course": "MATH 499",
+            "semester": "Spring 2027",
+            "sectionNumber": "1",
+            "instructors": [
+                "Julie C. Blackwood"
+            ],
+            "lecture": "TBA",
+            "webpage": "https://catalog.williams.edu/math/detail/?strm=1273&cn=499&crsid=011719&req_year=0"
+        }
+    ],
+    "catalog": [
+        {
+            "id": "MATH 102",
+            "title": "Foundations in Quantitative Skills",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "This course will strengthen a student’s foundation in quantitative reasoning in preparation for the science curriculum and QFR requirements. The material will be at the college algebra/precalculus level, and covered in a tutorial format with students working in small groups with the professor. Access to this course is limited to placement by a quantitative skills counselor."
+        },
+        {
+            "id": "MATH 111",
+            "title": "LQWURGXFWLRQ WR FUBSWRJUDSKB (INTRODUCTION TO CRYPTOGRAPHY)",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "The ability to encode information so that only certain recipients can read it (or, conversely, to read information you are not supposed to have!) contains some of the most exciting applications of pure and applied mathematics. Since at least the time of Julius Ceasar (the title to this course is encoded with the cipher he made famous), codes and ciphers have been used to protect important information. We’ll discuss various cryptosystems used over the years. The course is a mix of history and theory. Using mostly just elementary algebra we’ll describe many of the challenges and solutions to key problems in the subject (for students with advanced backgrounds there will be the option to explore some topics in greater detail)."
+        },
+        {
+            "id": "MATH 130",
+            "title": "Calculus I",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Calculus permits the computation of velocities and other instantaneous rates of change by a limiting process called differentiation. The same process also solves “max-min” problems: how to maximize profit or minimize pollution. A second limiting process, called integration, permits the computation of areas and accumulations of income or medicines. The Fundamental Theorem of Calculus provides a useful and surprising link between the two processes. Subtopics include trigonometry, exponential growth, and logarithms."
+        },
+        {
+            "id": "MATH 140",
+            "title": "Calculus II",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Calculus answers two basic questions: how fast is something changing (the derivative) and how much is there (the integral). This course is about integration and the miracle that unites the derivative and the integral (the Fundamental Theorem of Calculus.) Understanding calculus requires in part the understanding of methods of integration.This course will also solve equations involving derivatives (“differential equations”) for population growth or pollution levels. Exponential and logarithmic functions and trigonometric and inverse functions will also play an important role. This course is the right starting point for students who have seen derivatives, but not necessarily integrals, before."
+        },
+        {
+            "id": "MATH 150",
+            "title": "Multivariable Calculus",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Applications of calculus in mathematics, science, economics, psychology, the social sciences, involve several variables. This course extends calculus to several variables: vectors, partial derivatives, multiple integrals. There is also a unit on infinite series, sometimes with applications to differential equations."
+        },
+        {
+            "id": "MATH 151",
+            "title": "Multivariable Calculus",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Applications of calculus in mathematics, science, economics, psychology, the social sciences, involve several variables. This course extends calculus to several variables: vectors, partial derivatives and multiple integrals. The goal of the course is Stokes Theorem, a deep and profound generalization of the Fundamental Theorem of Calculus. The difference between this course and MATH 150 is that MATH 150 covers infinite series instead of the theorems of vector calculus. Students with the equivalent of BC 3 or higher should enroll in MATH 151, as well as students who have taken the equivalent of integral calculus and who have already been exposed to infinite series. For further clarification as to whether MATH 150 or MATH 151 is appropriate, please consult a member of the math/stat department."
+        },
+        {
+            "id": "MATH 200",
+            "title": "Discrete Mathematics",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "In contrast to calculus, which is the study of continuous processes, this course examines the structure and properties of finite sets. Topics to be covered include mathematical logic, elementary number theory, mathematical induction, set theory, functions, relations, elementary combinatorics and probability, and graphs. Emphasis will be given on the methods and styles of mathematical proofs, in order to prepare the students for more advanced math courses."
+        },
+        {
+            "id": "MATH 210",
+            "title": "Mathematical Methods for Scientists",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "This course covers a variety of mathematical and computational methods used in the sciences, focusing on methods to solve ordinary and partial differential equations. These include tools that arise frequently in the study of waves and diffusion, such as complex numbers and functions, Fourier series and transforms, and general series methods. In parallel to developing mathematical methods skills, this course has a computational lab component where numerical techniques will be developed, leading to a final project (previous coding experience is not expected)."
+        },
+        {
+            "id": "MATH 220",
+            "title": "Foundations of Mathematical Thinking & Discrete Math",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "This course serves as a foundation of mathematical thinking, abstract thought, problem solving, and proof writing. Topics to be covered include introductory logic, methods of mathematical proof, number theory, set theory, injective and surjective functions, sizes of infinity, counting, and graph theory. The course will include some self-guided discovery learning and weekly small group meetings with a TA. Students may not take both Math 220 and Math 200."
+        },
+        {
+            "id": "MATH 250",
+            "title": "Linear Algebra",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Many social, political, economic, biological, and physical phenomena can be described, at least approximately, by linear relations. In the study of systems of linear equations one may ask: When does a solution exist? When is it unique? How does one find it? How can one interpret it geometrically? This course develops the theoretical structure underlying answers to these and other questions and includes the study of matrices, vector spaces, linear independence and bases, linear transformations, determinants and inner products. Course work is balanced between theoretical and computational, with attention to improving mathematical style and sophistication."
+        },
+        {
+            "id": "MATH 309",
+            "title": "Differential Equations and Nonlinear Dynamical Systems",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Ordinary differential equations (ODEs) frequently arise as models of phenomena in the natural and social sciences. This course presents core ideas of ODEs from an applied standpoint. Topics covered early in the course may include numerical solutions, separation of variables, integrating factors, and constant coefficient linear equations. Later, we will focus on nonlinear ODEs, for which it is usually impossible to find analytical solutions. Tools from dynamical systems will be introduced to allow us to obtain information about the behavior of the ODEs without explicitly knowing the solution."
+        },
+        {
+            "id": "MATH 313",
+            "title": "Introduction to Number Theory",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Number theory is the study of numbers—usually integers, but often also rationals and generalizations. We shall survey roughly 4000 years of developments in the field, including the multiplicative structure of Z and the distribution of primes, decimal representations, continued fractions, quadratic forms and class numbers, elliptic curves, applications to cryptography and primality testing, and other types of numbers (modular arithmetic, Gaussian integers, p-adic numbers, etc.)."
+        },
+        {
+            "id": "MATH 316",
+            "title": "Protecting Information: Applications of Abstract Algebra and Quantum Physics",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Living in the information age, we find ourselves depending more and more on codes that protect messages against either noise or eavesdropping. This course examines some of the most important codes currently being used to protect information, including linear codes, which in addition to being mathematically elegant are the most practical codes for error correction, and the RSA public key cryptographic scheme, popular nowadays for internet applications. We also study the standard AES system as well as a popular cryptographic strategy based on elliptic curves. Looking ahead by a decade or more, we show how a quantum computer could crack the RSA scheme in short order, and how quantum cryptographic devices will achieve security through the inherent unpredictability of quantum events."
+        },
+        {
+            "id": "MATH 317",
+            "title": "Introduction to Operations Research",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "In the first N math classes of your career, you can be misled as to what the world is truly like. How? You’re given exact problems and told to find exact solutions.The real world is sadly far more complicated. Frequently we cannot exactly solve problems; moreover, the problems we try to solve are themselves merely approximations to the world! We are forced to develop techniques to approximate not just solutions, but even the statement of the problem. Additionally, we often need the solutions quickly. Operations Research, which was born as a discipline during the tumultuous events of World War II, deals with efficiently finding optimal solutions. In this course we build analytic and programming techniques to efficiently tackle many problems. We will review many algorithms from earlier in your mathematical or CS career, with special attention now given to analyzing their run-time and seeing how they can be improved. The culmination of the course is a development of linear programming and an exploration of what it can do and what are its limitations. For those wishing to take this as a Stats course, the final project must have a substantial stats component approved by the instructor. Prerequisites: Linear Algebra (MATH 250) and one other 200-level or higher CSCI, MATH or STATS course, or permission of the instructor."
+        },
+        {
+            "id": "MATH 321",
+            "title": "Knot Theory",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Take a piece of string, tie a knot in it, and glue the ends together. The result is a knotted circle, known as a knot. For the last 100 years, mathematicians have studied knots, asking such questions as, “Given a nasty tangled knot, how do you tell if it can be untangled without cutting it open?” Some of the most interesting advances in knot theory have occurred in the last ten years.This course is an introduction to the theory of knots. Among other topics, we will cover methods of knot tabulation, surfaces applied to knots, polynomials associated to knots, and relationships between knot theory and chemistry and physics. In addition to learning the theory, we will look at open problems in the field."
+        },
+        {
+            "id": "MATH 326",
+            "title": "Differential Geometry",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "The shortest path from equatorial Africa to equatorial South America is along the equator. This illustrates the fact that the “straight lines” on a sphere are great circles. On the surface of a doughnut, finding the shortest path between any two points is more subtle, reflecting how the doughnut curves through space in a more complicated way than the sphere. In this course, we will learn the theory of differential geometry, which describes these curvature properties, and apply it to a range of examples. We will also take the first steps toward Riemannian geometry, the framework underlying Einstein’s theory of general relativity. Topics: Curves in space, the Frenet-Serret theorem, surfaces and their first and second fundamental forms, geodesics, curvature (principal, Gaussian, mean, normal), minimal surfaces and soap bubbles, the Theorema Egregium, the Gauss-Bonnet theorem, and an introduction to higher-dimensional Riemannian metrics."
+        },
+        {
+            "id": "MATH 334",
+            "title": "Graph Theory",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "A graph is a collection of vertices, joined together by edges. In this course, we will study the sorts of structures that can be encoded in graphs, along with the properties of those graphs. We’ll learn about such classes of graphs as multi-partite, planar, and perfect graphs, and will see applications to such optimization problems as minimum colorings of graphs, maximum matchings in graphs, and network flows."
+        },
+        {
+            "id": "MATH 336",
+            "title": "Symmetric Functions and their Combinatorics",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "We call a multivariable function symmetric whenever the function is preserved under any permutation of variables. Some well-known symmetric functions include elementary symmetric functions, complete homogeneous symmetric functions, Schur functions, and chromatic symmetric functions. These functions provide a tool to study many combinatorial objects, including partitions, Young tableaux, lattice paths, and proper colorings. In this course we start with preliminaries on symmetric functions, and later develop into a study of various combinatorial objects."
+        },
+        {
+            "id": "MATH 338",
+            "title": "Intermediate Logic",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "In this course, we will begin with an in-depth study of the theory of first-order logic. We will first get clear on the formal semantics of first-order logic and various ways of thinking about formal proof: natural deduction systems, semantic tableaux, axiomatic systems and sequent calculi. Our main goal will be to prove things about this logical system rather than to use this system to think about ordinary language arguments. In this way the goal of the course is significantly different from that of Logic and Language (PHIL 203). Students who have take PHIL 203 will have a good background for this class, but students who are generally comfortable with formal systems need not have taken PHIL 203. We will prove soundness and completeness, compactness, the Lowenheim-Skolem theorems, undecidability and other important results about first-order logic. As we go through these results, we will think about the philosophical implications of first-order logic. From there, we will look at extensions of and/or alternatives to first-order logic. Possible additional topics would include: modal logic, the theory of counterfactuals, alternative representations of conditionals, the use of logic in the foundations of arithmetic and Godel’s Incompleteness theorems. Student interest will be taken into consideration in deciding what additional topics to cover."
+        },
+        {
+            "id": "MATH 341",
+            "title": "Probability",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "The historical roots of probability lie in the study of games of chance. Modern probability, however, is a mathematical discipline that has wide applications in a myriad of other mathematical and physical sciences. Drawing on classical gaming examples for motivation, this course will present axiomatic and mathematical aspects of probability. Included will be discussions of random variables (both discrete and continuous), distribution and expectation, independence, laws of large numbers, and the well-known Central Limit Theorem. Many interesting and important applications will also be presented, including some from classical Poisson processes, random walks and Markov Chains."
+        },
+        {
+            "id": "MATH 350",
+            "title": "Real Analysis",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Why is the product of two negative numbers positive? Why do we depict the real numbers as a line? Why is this line continuous, and what do we mean when we say that? Perhaps most fundamentally, what is a real number? Real analysis addresses such questions, delving into the structure of real numbers and functions of them. Along the way we’ll discuss sequences and limits, series, completeness, compactness, derivatives and integrals, and metric spaces. Results covered will include the Cantor-Schroeder-Bernstein theorem, the monotone convergence theorem, the Bolzano-Weierstrass theorem, the Cauchy criterion, Dirichlet’s and Riemann’s rearrangement theorem, the Heine-Borel theorem, the intermediate value theorem, and many others. This course is excellent preparation for graduate studies in mathematics, statistics, and economics."
+        },
+        {
+            "id": "MATH 351",
+            "title": "Applied Real Analysis",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "This course is designed to introduce students to the underpinnings of real analysis, primarily in the context of Fourier series. By the end of the semester people will be comfortable making epsilon and delta type arguments. These types of arguments are one of the main pillars of modern mathematics. In a similar way, Fourier series and their generalizations are one of the pillars of the modern digital world."
+        },
+        {
+            "id": "MATH 355",
+            "title": "Abstract Algebra",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Algebra gives us tools to solve equations. The integers, the rationals, and the real numbers have special properties which make algebra work according to the circumstances. In this course, we generalize algebraic processes and the sets upon which they operate in order to better understand, theoretically, when equations can and cannot be solved. We define and study abstract algebraic structures such as groups, rings, and fields, as well as the concepts of factor group, quotient ring, homomorphism, isomorphism, and various types of field extensions. This course introduces students to abstract rigorous mathematics."
+        },
+        {
+            "id": "MATH 361",
+            "title": "Theory of Computation",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "This course introduces a formal framework for investigating both the computability and complexity of problems. We study several models of computation including finite automata, regular languages, context-free grammars, and Turing machines. These models provide a mathematical basis for the study of computability theory–the examination of what problems can be solved and what problems cannot be solved–and the study of complexity theory–the examination of how efficiently problems can be solved. Topics include the halting problem and the P versus NP problem."
+        },
+        {
+            "id": "MATH 384",
+            "title": "Harmonic Analysis Through Music",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "In this course we will explore the major topics and concepts of Harmonic Analysis: the wave equation and its solutions, Fourier series, tempered distributions, and the Fourier transform. Various concepts from music (such as tones, timbre, loudness) will be connected with mathematical concepts (periodic functions, sound spectrum, Fourier coefficients) through concrete experiments that use software tools such as sound oscilloscope and frequency analyzer. Prior experience with any particular software or with the theory and practice of music is not required."
+        },
+        {
+            "id": "MATH 401",
+            "title": "Functional Analysis",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Functional analysis can be viewed as linear algebra on infinite-dimensional spaces. It is a central topic in Mathematics, which brings together and extends ideas from analysis, algebra, and geometry. Functional analysis also provides the rigorous mathematical background for several areas of theoretical physics (especially quantum mechanics). We will introduce infinite-dimensional spaces (Banach and Hilbert spaces) and study their properties. These spaces are often spaces of functions (for example, the space of square-integrable functions). We will consider linear operators on Hilbert spaces and investigate their spectral properties. A special attention will be dedicated to various operators arising from mathematical physics, especially the Schrodinger operator."
+        },
+        {
+            "id": "MATH 405",
+            "title": "Representation Theory, Differential Equations and Special Functions",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Representation theory is at the heart of much of modern mathematics. It provides a link between ideas of symmetries, groups and matrices. It has applications from number theory to Fourier Analysis to elementary particle theory. In part, representation theory is a method for producing interesting functions. While not having a single definition, special functions are “functions that have names.” Over the last few hundred years, scientists have needed to define and develop certain families of functions, in order to describe different physical phenomena. These families started to be named, and include Bessel functions, Hermite functions, Laguerre functions and more generally hypergeometric functions. In recent years it has been seen that these different types of functions are best understood through the lens of symmetry and in particular via representation theory. This course will be an introduction to representation theory, starting with finite groups, while at the same time being an introduction to special functions and their link to differential equations. Thus the course will be a mix of abstract algebra, matrices, calculus and analysis."
+        },
+        {
+            "id": "MATH 409",
+            "title": "The Little Questions",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Using math competitions such as the Putnam Exam as a springboard, in this class we follow the dictum of the Ross Program and “think deeply of simple things”. The two main goals of this course are to prepare students for competitive math competitions, and to get a sense of the mathematical landscape encompassing elementary number theory, combinatorics, graph theory, and group theory (among others). While elementary frequently is not synonymous with easy, we will see many beautiful proofs and `a-ha’ moments in the course of our investigations. Students will be encouraged to explore these topics at levels compatible with their backgrounds."
+        },
+        {
+            "id": "MATH 412",
+            "title": "Mathematical Biology",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "This course will provide an introduction to the many ways in which mathematics can be used to understand, analyze, and predict biological dynamics. We will learn how to construct mathematical models that capture essential properties of biological processes while maintaining analytic tractability. Analytic techniques, such as stability and bifurcation analysis, will be introduced in the context of both continuous and discrete time models. Additionally, students will couple these analytic tools with numerical simulation to gain a more global picture of the biological dynamics. Possible biological applications may include, but are not limited to, single and multi-species population dynamics, neural and biological oscillators, tumor cell growth, and infectious disease dynamics."
+        },
+        {
+            "id": "MATH 417",
+            "title": "Topics in Algebra: Rings and Modules",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "This course is a follow-up to Math355 Abstract algebra. Rings are algebraic structures that behave like integers; they are closed under addition, subtraction, and multiplication, but not necessarily under division. In the first half of the course we study various kinds of rings, including ideals, PIDs, UFDs, and polynomial rings. Meanwhile, modules are sets on which the ring actions are defined. A vector space is an example of a module, as it arises when the ring that acts on the module is a field. The second half of the course will consist of an extensive study on module theory."
+        },
+        {
+            "id": "MATH 453",
+            "title": "Partial Differential Equations",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "In this course, we further explore the world of differential equations. Mainly, we cover topics in partial differential equations. Partial Differential Equations (PDEs) are fundamental to the modeling of many natural phenomena, arising in many fields, including fluid mechanics, heat and mass transfer, electromagnetic theory, finance, elasticity, and more. The goals of this course are to discuss the following topics: classification of PDEs in terms of order, linearity and homogeneity; physical interpretation of canonical PDEs; solution techniques, including separation of variables, series solutions, integral transforms, and the method of characteristics."
+        },
+        {
+            "id": "MATH 476",
+            "title": "Topology",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "In Real Analysis you learned about metric spaces—any set of objects endowed with a way of measuring distance—and the topology of sets in such spaces (open, closed, bounded, etc). In this course we flip this on its head: we explore how to develop analysis (limits, continuity, etc) in spaces where the topology is known but the metric is not. This will lead us to a bizarre and fascinating version of geometry in which we cannot distinguish between shapes that can be continuously deformed into one another. Not only does this theory turn out to be beautiful in the abstract, it plays an important role in math, physics, and data analysis. This course is excellent preparation for graduate programs in mathematics."
+        },
+        {
+            "id": "MATH 479",
+            "title": "Arithmetic Combinatorics",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Lying at the interface of combinatorics, ergodic theory, harmonic analysis, number theory, and probability, Arithmetic Combinatorics is an exciting field which has experienced tremendous growth in recent years. Very roughly, it is an attempt to classify subsets of a given field which are almost a subspace. We will discuss a variety of topics, including some of the following (depending on time and interest): sum-product theorems, the Freiman-Ruzsa theorem on sets of small doubling, Roth’s and Szemeredi’s theorems on additive structure in sets of positive density, applications to computer science (e.g. to pseudorandomess), higher-order Fourier analysis, the polynomial method, and the ergodic approach to Szemeredi’s theorem."
+        },
+        {
+            "id": "MATH 493",
+            "title": "Senior Honors Thesis: Mathematics",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Mathematics senior honors thesis; this is part of a full-year thesis (493-494). Each student carries out an individual research project under the direction of a faculty member that culminates in a thesis. See description under The Degree with Honors in Mathematics."
+        },
+        {
+            "id": "MATH 494",
+            "title": "Senior Honors Thesis: Mathematics",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Mathematics senior honors thesis; this is part of a full-year thesis (493-494). Each student carries out an individual research project under the direction of a faculty member that culminates in a thesis. See description under The Degree with Honors in Mathematics."
+        },
+        {
+            "id": "MATH 497",
+            "title": "Independent Study: Mathematics",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Directed 400-level independent study in Mathematics."
+        },
+        {
+            "id": "MATH 498",
+            "title": "Independent Study: Mathematics",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Directed 400-level independent study in Mathematics."
+        },
+        {
+            "id": "MATH 499",
+            "title": "Senior Colloquium",
+            "icon": "/images/courseicons/icon-math.png",
+            "description": "Mathematics senior colloquium. Meets every week for two hours both fall and spring. Senior majors must participate at least one hour a week. This colloquium is in addition to the regular four semester-courses taken by all students."
+        }
+    ]
+}
