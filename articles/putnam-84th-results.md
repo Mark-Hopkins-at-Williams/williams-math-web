@@ -1,0 +1,1 @@
+The results are in for the 84th William Lowell Putnam Mathematical Competition! In December, twenty Williams students competed in the grueling six-hour exam. Our team was led by **Jonathan Geller** and **Yuan Qiu**, who both scored in the top 250. Thanks to all who participated!

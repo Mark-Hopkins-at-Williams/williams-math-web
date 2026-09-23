@@ -1,0 +1,3 @@
+Our congratulations go out to Professor Ralph Morrison, Ben Logsdon '20, and Anya Michaelsen '19 for their work "Nullstellenfont" (*Math Horizons*, 27:4, 5-7 (2020)), which has been selected for inclusion in the 2021 edition of *The Best Writing in Mathematics*!
+
+This paper was adapted from a final project by Ben and Anya for Professor Morrison's Math 487: Computational Algebraic Geometry class in Spring 2019. Using properties of solution sets to polynomial equations, Ben and Anya built a tool to make a polynomial equation f(x,y)=0 whose solution set looks like any string of text you would like! You can [try it out yourself](https://sites.google.com/williams.edu/nullstellenfont).
