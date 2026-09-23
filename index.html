@@ -43,17 +43,19 @@
       just visually hidden for JS-enabled browsers via inline styles
       (not display:none/visibility:hidden, which some crawlers treat as
       a signal to ignore the content). Keep in sync with src/App.jsx.
+      Hrefs use Vite's BASE_URL placeholder (filled in at build time) so they
+      stay correct when the site is served from a subpath.
     -->
     <nav style="position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;">
-      <a href="/">Home</a>
-      <a href="/about-us/">About Us</a>
-      <a href="/plan-your-major/">Plan Your Major</a>
-      <a href="/courses/">Courses</a>
-      <a href="/colloquium/">Colloquium</a>
-      <a href="/student-life/">Student Life</a>
-      <a href="/research/">Research Opportunities</a>
-      <a href="/non-majors/">Non-Majors</a>
-      <a href="/news/">News</a>
+      <a href="/williams-math-web/">Home</a>
+      <a href="/williams-math-web/about-us/">About Us</a>
+      <a href="/williams-math-web/plan-your-major/">Plan Your Major</a>
+      <a href="/williams-math-web/courses/">Courses</a>
+      <a href="/williams-math-web/colloquium/">Colloquium</a>
+      <a href="/williams-math-web/student-life/">Student Life</a>
+      <a href="/williams-math-web/research/">Research Opportunities</a>
+      <a href="/williams-math-web/non-majors/">Non-Majors</a>
+      <a href="/williams-math-web/news/">News</a>
     </nav>
   </body>
 </html>
