@@ -1,0 +1,7 @@
+The degree with honors in Mathematics is awarded to the student who has demonstrated outstanding intellectual achievement in a program of study which extends beyond the requirements of the major. The principal considerations for recommending a student for the degree with honors are: mastery of core material and skills; breadth and, particularly, depth of knowledge beyond the core material; ability to pursue independent study of mathematics or statistics; originality in methods of investigation; and, where appropriate, creativity in research.
+
+An honors program normally consists of two semesters (MATH/STAT 493 and 494) and a winter study (WSP 031) of independent research under the direction of a faculty member, culminating in a thesis and a presentation. Under certain circumstances, the honors work can consist of coordinated study involving one semester (MATH/STAT 493 or 494) and a winter study (WSP 030) of independent research, culminating in a "minithesis" and a presentation. At least one semester should be in addition to the major requirements, and thesis courses do not count as 400-level senior seminars.
+
+An honors program in actuarial studies requires significant achievement on four appropriate examinations of the Society of Actuaries.
+
+Highest honors are reserved for the rare student who has displayed exceptional ability, achievement or originality. Such a student usually will have written a thesis, or pursued actuarial honors and written a mini-thesis. In all cases, the award of honors and highest honors is the decision of the department.

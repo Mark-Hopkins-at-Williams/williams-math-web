@@ -1,0 +1,9 @@
+The Mathematics Mentoring Program pairs first years and sophomores interested in mathematics with junior and senior mentors who will help them navigate through their academic experience in the department. There is evidence that suggests that having such a mentor relationship is more likely to lead to academic success, and therefore the Math Department is excited to support a mentoring program.
+
+We envision that mentoring pairs will meet at least once a month to discuss whatever issues are most pressing for the mentee, for example, getting help in courses, studying for midterms, selecting courses, and more. Please note that a mentor is not a tutor.
+
+**Mentees:** If you are a first year or sophomore who does not already have a Math department mentor, you can request one for the fall semester. Each mentee that applies by the initial deadline of Friday, September 25th at noon will be paired with at least one mentor.
+
+**Mentors:** Each mentee that applies by the initial deadline will be paired with at least one, but possibly more, mentors. Depending on the number of applications, it's possible that not every mentor will be paired with a mentee. There will be a training session (with pizza!) for all mentors on Wednesday, September 30 at 6pm in Schow 030B. This is a required event for all new mentors, and strongly recommended for returning mentors, but if you are absolutely unable to attend, please still apply to be a mentor and we will get you up to speed.
+
+Use these forms to [request a mentor](https://docs.google.com/forms/d/e/1FAIpQLSeKasra9IZ5UPn9mhNRXPKz0xzE0EDBhY-kODsKTsPT22sUeg/viewform) or [apply to be a mentor](https://docs.google.com/forms/d/e/1FAIpQLSc7sz_l9N3gGKnqZdeWg5jCTLUm48sFpAPH2PH9VDDZef07nQ/viewform). Both can only be accessed with your Williams email account.
